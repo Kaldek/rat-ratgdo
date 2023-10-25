@@ -18,4 +18,12 @@ The PCB schematic here does not describe any circuitry other than the serial lin
 ![PCB Link](https://github.com/Kaldek/rat-ratgdo/blob/main/ratgdo%20open%20source_schem.png)
 
 
-## How the ratgdo circuit works.
+## How the ratgdo circuit works
+The ratgdo circuitry which we cover in this project consists of two sections; Garage Door control and obstruction sensors.
+
+### Garage Door Control
+#### Description of the Chamberlain configuration
+The Chamberlain garage door control circuit is a two-wire setup consisting of a Ground, and a combined +12v power and serial data line.  The serial data line is held at 12v unless data transmission is occurring.  Data transmission is performed by pulling the 12v line down to GND for each data bit.  The benefit here is that a single wire can be used for providing power to door control panels and data transmssion on a single wire.  The use of appropriately sized capacitors in door control panels means they do not switch off during data transmission.  
+
+#### How ratgdo interfaces with the Chamberlain wiring
+
