@@ -10,6 +10,9 @@ For the RX line, the Gate of the MOSFET on this part of the circuit is connected
 
 So, regardless of what device is transmitting on the serial line (whether that is the ESP8266, the door opener itself, or a door control panel, the transmitting device pulls the +12v line to ground.
 
+### Why are the two MOSFETs different?
+For the RX line where the gate is driven by a 12v signal, the 2n7000 is appropriate.  For the TX line where the gate is driven by a 3.3v signal, the 2n7000 is borderline as it needs 3v to fully switch and 3.3v is risky.  For through-hole designs, the IRLB8721 is our recommended part as it only needs 2.5 volts to fully switch, and the 3.3 volt signal from the ESP8266 is therefore plenty.  See below if you're looking to use SMD parts.
+
 ### What bitrate is the MyQ serial communication?
 As per the code from the ratgdo project, it is 9600 bits per second.
 
