@@ -12,3 +12,8 @@ So, regardless of what device is transmitting on the serial line (whether that i
 
 ### What bitrate is the MyQ serial communication?
 As per the code from the ratgdo project, it is 9600 bits per second.
+
+### Could I power the ESP8266 from the +12v serial line?
+Absolutely you can try this; this is how the MyQ wall controllers work.  All you need is suitable voltage regulation from 12v to 3.3v and big enough capacitors to keep the ESP8266 powered when the 12v line is being pulled low during serial transmission pulses.
+
+We cannot speak for the maximum current capability of the +12v line, however it is likely to be high enough to power one door control panel and the ESP8266.  If you have additional wall control panels, you may exceed the capabilities of the +12v power which is available.
