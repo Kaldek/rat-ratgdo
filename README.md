@@ -20,6 +20,8 @@ The PCB schematic here does not describe any circuitry other than the serial lin
 ## Components needed
 Aside from the obvious requirement of an ESP8266 flashed with the native ratgdo or the [ESPHome version](https://github.com/ratgdo/esphome-ratgdo), you will need 2x 10Kohm (kilo-ohm) resistors and 2x 2n7000 N-channel MOSFETs.  It is also recommended you aquire a suitable 3-post screw terminal and some red, white, and black wire for connecting to the door opener.  These connections are very low current, so you can get away with fairly thin wire.
 
+We have not yet validated if the solution will work using a "raw" ESP8266 or if it needs the D1 mini.  There are some additional passive resistors on the D1 Mini which I haven't yet probed out.
+
 
 ## How the ratgdo circuit works
 The ratgdo circuitry which we cover in this project consists of two sections; Garage Door control and obstruction sensors.
