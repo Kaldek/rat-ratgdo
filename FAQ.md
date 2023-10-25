@@ -22,3 +22,5 @@ We cannot speak for the maximum current capability of the +12v line, however it 
 If you want to use SOT-23 SMD components rather than through-hole, the following MOSFETs are recommended:
 - RX line: 2N7002
 - TX line: AO3400A
+
+For resistors, knock yourself out.  Any size you like as long as it's 10 kohm.
