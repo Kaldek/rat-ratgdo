@@ -17,3 +17,8 @@ As per the code from the ratgdo project, it is 9600 bits per second.
 Absolutely you can try this; this is how the MyQ wall controllers work.  All you need is suitable voltage regulation from 12v to 3.3v and big enough capacitors to keep the ESP8266 powered when the 12v line is being pulled low during serial transmission pulses.
 
 We cannot speak for the maximum current capability of the +12v line, however it is likely to be high enough to power one door control panel and the ESP8266.  If you have additional wall control panels, you may exceed the capabilities of the +12v power which is available.
+
+### What if I want to use SOT-23 SMD components?
+If you want to use SOT-23 SMD components rather than through-hole, the following MOSFETs are recommended:
+- RX line: 2N7002
+- TX line: AO3400A
