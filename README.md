@@ -17,6 +17,9 @@ The PCB schematic here does not describe any circuitry other than the serial lin
 
 ![PCB Link](https://github.com/Kaldek/rat-ratgdo/blob/main/ratgdo%20open%20source_schem.png)
 
+## Components needed
+You will need 2x 10Kohm (kilo-ohm) resistors and 2x 2n7000 N-channel MOSFETs.  It is also recommended you aquire a suitable 3-post screw terminal and some red, white, and black wire for connecting to the door opener.  These connections are very low current, so you can get away with fairly thin wire.
+
 
 ## How the ratgdo circuit works
 The ratgdo circuitry which we cover in this project consists of two sections; Garage Door control and obstruction sensors.
