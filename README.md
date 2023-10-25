@@ -26,6 +26,10 @@ Aside from the obvious requirement of an ESP8266 flashed with the native ratgdo 
 
 We have not yet validated if the solution will work using a "raw" ESP8266 or if it needs the D1 mini.  There are some additional passive resistors on the D1 Mini which I haven't yet probed out.
 
+## INSTALL REQUIREMENTS
+If installing the ESPHome fork of ratgdo you **must** select the blue v2.5 board on the ESPhome [web installer page](https://ratgdo.github.io/esphome-ratgdo/).
+If installing using Paul Wieland's native ratgdo installer and you install for a v2.0 board, you must wire your TX to D4 (GPIO2) rather than D1 (GPIO5).
+
 
 ## How the ratgdo circuit works
 The ratgdo circuitry which we cover in this project consists of two sections; Garage Door control and obstruction sensors.
