@@ -11,3 +11,5 @@ This project was created to allow people who need a ratgdo solution for their ga
 
 **If you want to buy a pre-made ratgdo setup, purchase it from Paul Wieland.**
 
+https://github.com/Kaldek/rat-ratgdo/blob/main/ratgdo%20open%20source_schem.png
+
