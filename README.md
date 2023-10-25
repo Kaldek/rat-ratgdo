@@ -15,7 +15,7 @@ The PCB schematic here does not describe any circuitry other than the serial lin
 
 **If you want to buy a pre-made ratgdo setup, purchase it [from Paul Wieland](https://github.com/PaulWieland/ratgdo).**
 
-![PCB Link](https://github.com/Kaldek/rat-ratgdo/blob/main/ratgdo%20open%20source_schem_v2.png)
+![PCB Link](https://github.com/Kaldek/rat-ratgdo/blob/main/ratgdo%20open%20source_schem_v3.png)
 
 ## Components needed
 This schematic assumes the use of through-hole components.  If you wish to use SMD components, please refer to the FAQ.
