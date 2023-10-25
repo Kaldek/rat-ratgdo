@@ -26,7 +26,8 @@ Aside from the obvious requirement of an ESP8266-based D1 Mini board flashed wit
 
 **Note:** If you cannot source an IRLB8721 MOSFET, you can use another 2n7000 MOSFET, however this is borderline for switching using 3.3v logic.
 
-We have not yet validated if the solution will work using a "raw" ESP8266 or if it needs the D1 mini.  There are some additional passive resistors on the D1 Mini which I haven't yet probed out.
+**WARNING!** This schematic alone will not work with a "raw" ESP8266 without the D1 mini board.  Certain models of ESP8266 will not boot without some pullup resistors.  This is not to say that we can't add these distinctions and clarifications in future (e.g., which ESP model to buy such as ESP-12S vs ESP-12F) but for now, this project lacks that guidance.
+
 
 ## INSTALL REQUIREMENTS
 If installing the ESPHome fork of ratgdo you **must** select the blue v2.5 board on the ESPhome [web installer page](https://ratgdo.github.io/esphome-ratgdo/).
