@@ -18,7 +18,11 @@ The PCB schematic here does not describe any circuitry other than the serial lin
 ![PCB Link](https://github.com/Kaldek/rat-ratgdo/blob/main/ratgdo%20open%20source_schem.png)
 
 ## Components needed
-Aside from the obvious requirement of an ESP8266 flashed with the native ratgdo or the [ESPHome version](https://github.com/ratgdo/esphome-ratgdo), you will need 2x 10Kohm (kilo-ohm) resistors and 2x 2n7000 N-channel MOSFETs.  It is also recommended you aquire a suitable 3-post screw terminal and some red, white, and black wire for connecting to the door opener.  These connections are very low current, so you can get away with fairly thin wire.
+This schematic assumes the use of through-hole components.  If you wish to use SMD components, please refer to the FAQ.
+
+Aside from the obvious requirement of an ESP8266 flashed with the native ratgdo or the [ESPHome version](https://github.com/ratgdo/esphome-ratgdo), you will need 2x 10Kohm (kilo-ohm) resistor, one 2n7000 N-channel MOSFET (TO-92 package) and one IRLB8721 MOSFET (TO-220 package).  It is also recommended you aquire a suitable 3-post screw terminal and some red, white, and black wire for connecting to the door opener.  These connections are very low current, so you can get away with fairly thin wire.
+
+**Note:** If you cannot source an IRLB8721 MOSFET, you can use another 2n7000 MOSFET, however this is borderline for switching using 3.3v logic.
 
 We have not yet validated if the solution will work using a "raw" ESP8266 or if it needs the D1 mini.  There are some additional passive resistors on the D1 Mini which I haven't yet probed out.
 
