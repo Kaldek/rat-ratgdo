@@ -39,7 +39,7 @@ The ratgdo taps into the red control wire and uses this single wire for transmis
 
 In operation, this means that the ratgdo is mostly listening to the serial bus to ensure it is keeping track of the state of the door.  For example, if the door is manually opened (or opened by use of the MyQ app even), these events are broadcast onto the serial bus by the door controller.  ratgdo is therefore able to know that the state of the door has changed.  In turn, this means that when controlling ratgdo via Home Assistant, the status of the door in HA is always up to date.
 
-**NOTE:** Use of the ESPHome fork of ratgdo uses D1 (GPIO5) rather than GPIO2 (D4) for TX and this PCB reflects that.
+**NOTE:** Use of the ESPHome fork of ratgdo uses D1 (GPIO5) rather than GPIO2 (D4) for TX and this PCB reflects that.  This appears to be related to the version 2.5 board which uses D1 rather than D4.
 
 
 ### Obstruction sensor
