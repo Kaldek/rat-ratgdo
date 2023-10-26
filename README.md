@@ -17,7 +17,7 @@ The PCB schematic here does not describe any circuitry other than the serial lin
 
 ![PCB Link](https://github.com/Kaldek/rat-ratgdo/blob/main/ratgdo%20open%20source_schem_v4.png)
 
-See an image of a [working breadboard prototype](https://github.com/Kaldek/rat-ratgdo/blob/main/Breadboard_working.png)
+See images of a [working breadboard prototype](https://github.com/Kaldek/rat-ratgdo/blob/main/Breadboard_working.png) and the [subsequent soldered prototype using a D1 shield](https://github.com/Kaldek/rat-ratgdo/blob/main/Simple%20prototype%20using%20D1%20shield.jpg).
 
 ## Components needed
 This schematic assumes the use of through-hole components.  If you wish to use SMD components, please refer to the [FAQ](https://github.com/Kaldek/rat-ratgdo/blob/main/FAQ.md).
