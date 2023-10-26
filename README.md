@@ -15,14 +15,14 @@ The PCB schematic here does not describe any circuitry other than the serial lin
 
 **If you want to buy a pre-made ratgdo setup, purchase it [from Paul Wieland](https://github.com/PaulWieland/ratgdo).**
 
-![PCB Link](https://github.com/Kaldek/rat-ratgdo/blob/main/ratgdo%20open%20source_schem_v4.png)
+![PCB Link](https://github.com/Kaldek/rat-ratgdo/blob/main/ratgdo%20open%20source_schem_v5.png)
 
 See images of a [working breadboard prototype](https://github.com/Kaldek/rat-ratgdo/blob/main/Breadboard_working.png) and the [subsequent soldered prototype using a D1 shield](https://github.com/Kaldek/rat-ratgdo/blob/main/Simple%20prototype%20using%20D1%20shield.jpg).  Both of these prototypes are using 2n7000 MOSFETs exclusively, but that is because they are prototypes and long term reliability of data transmission when using the 2n7000 has not been confirmed.  See the section below on needed components for context.
 
 ## Components needed
 This schematic assumes the use of through-hole components.  If you wish to use SMD components, please refer to the [FAQ](https://github.com/Kaldek/rat-ratgdo/blob/main/FAQ.md).
 
-Aside from the obvious requirement of an ESP8266-based D1 Mini board flashed with the native ratgdo or the [ESPHome version](https://github.com/ratgdo/esphome-ratgdo), you will need 2x 10Kohm (kilo-ohm) resistors, one 2n7000 N-channel MOSFET (TO-92 package is easiest) and one IRLB8721 MOSFET (likely only available in TO-220 package).  It is also recommended you aquire a suitable 3-post screw terminal and some red, white, and black wire for connecting to the door opener.  These connections are very low current, so you can get away with fairly thin wire.
+Aside from the obvious requirement of an ESP8266-based D1 Mini board flashed with the native ratgdo or the [ESPHome version](https://github.com/ratgdo/esphome-ratgdo), you will need 3x 10 kohm (kilo-ohm) resistors, one 2n7000 N-channel MOSFET (TO-92 package is easiest) and one IRLB8721 MOSFET (likely only available in TO-220 package).  It is also recommended you aquire a suitable 3-post screw terminal and some red, white, and black wire for connecting to the door opener.  These connections are very low current, so you can get away with fairly thin wire.
 
 **Note:** If you cannot source an IRLB8721 MOSFET, you can use another 2n7000 MOSFET, however this is borderline for switching using 3.3v logic.
 
