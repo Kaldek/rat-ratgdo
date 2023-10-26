@@ -13,6 +13,9 @@ So, regardless of what device is transmitting on the serial line (whether that i
 ### Why are the two MOSFETs different?
 For the RX line where the gate is driven by a 12v signal, the 2n7000 is appropriate.  For the TX line where the gate is driven by a 3.3v signal, the 2n7000 is borderline as it needs 3v to fully switch and 3.3v is risky.  For through-hole designs, the IRLB8721 is our recommended part as it only needs 2.5 volts to fully switch, and the 3.3 volt signal from the ESP8266 is therefore plenty.  See below if you're looking to use SMD parts.
 
+### How come the obstruction sensor circuit uses two resistors?
+The obstruction sensor circuit uses two 10k resistors, one in series and one in parallel to ground.  This causes the resistors to act as a voltage divider, bringing the voltage "seen" on pin D7 (GPIO13) down to ~3.3 volts. 
+
 ### What bitrate is the MyQ serial communication?
 As per the code from the ratgdo project, it is 9600 bits per second.
 
