@@ -4,7 +4,7 @@ AGAINST
 THE
 RATGDO
 
-Credit and inspiration goes to @rlowens to let me know that there are other technical folks out there who needed this other than myself.
+Credit and inspiration for this work goes to @rlowens to let me know that there are other technical folks out there who needed this other than myself.
 
 ## Overview
 This is an open source schematic for the ratgdo, based on the v2.5 ratgdo PCB and code.  We feel there is cognitive dissonance between the refusal to provide (and deleting requests for) schematics for the ratgdo PCB against the ratgdo project's use of open source code, open source licensing, and libraries used by other open source projects, as well as the inception reasoning for the ratgdo project which was to ensure that nobody is at the mercy of a third party.
