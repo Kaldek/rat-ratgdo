@@ -35,6 +35,9 @@ Aside from the obvious requirement of an ESP8266-based D1 Mini board flashed wit
 If installing the ESPHome fork of ratgdo you **must** select the blue v2.5 board on the ESPhome [web installer page](https://ratgdo.github.io/esphome-ratgdo/).
 If installing using Paul Wieland's native ratgdo installer and you install for a v2.0 board, you must wire your TX to D4 (GPIO2) rather than D1 (GPIO5).
 
+See here for discussion regarding the various ESP boards which can be used when building your custom PCB.
+https://github.com/Kaldek/rat-ratgdo/blob/main/Supported%20Boards.md
+
 
 ## How the ratgdo circuit works
 The ratgdo circuitry which we cover in this project consists of two sections; Garage Door control and obstruction sensors.
