@@ -4,7 +4,7 @@
 ### How does the "Red Wire" on these Garage Door Openers work?
 Each Garage Door Opener has two wires which connect between the GDO and any wired door control panels (the smart panels with displays and menu controls on them).  These are a +12v wire and a Ground so that DC power is provided to the control panel.
 
-https://github.com/Kaldek/rat-ratgdo/blob/main/GDO%20wiring%20pinout%20example.png
+![GDO wiring example from a MyQ manual](https://github.com/Kaldek/rat-ratgdo/blob/main/GDO%20wiring%20pinout%20example.png)
 
 However, that same +12v wire is **also** the data line which carries data between the GDO and the control panel.  This works because each serial data pulse is a brief "pull to ground" of that +12v line.  These pulses can be read by the door control panel (and, indeed read by the GDO if the data transmission is coming from the control panel and being sent to control the door).  This is how the ratgdo both receives and transmits data as well.  In essence, it appears to be just one more control device on the "bus".
 
