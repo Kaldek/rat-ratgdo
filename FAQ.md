@@ -1,6 +1,16 @@
 # FAQ
 
 ## Low Level Circuitry stuff
+### How does the "Red Wire" on these Garage Door Openers work?
+Each Garage Door Opener has two wires which connect between the GDO and any wired door control panels (the smart panels with displays and menu controls on them).  These are a +12v wire and a Ground so that DC power is provided to the control panel.
+
+However, that same +12v wire is **also** the data line which carries data between the GDO and the control panel.  How, you may ask?  Well the simple answer is that each serial data pulse is a brief "pull to ground" of that +12v line.  These pulses can be read by the door control panel (and, indeed read by the GDO if the data transmission is coming from the control panel and being sent to control the door).  This is how the ratgdo both receives and transmits data as well.  In essence, it appears to be just one more control device on the "bus".
+
+### If the +12V line is constantly pulsed low during data transmission, how come the door control panel doesn't turn off?
+There's two answers to this and both are simple:
+- The data transmission is actually quite rare
+- The door control panel either has some beefy capacitors in it or a supercapacitor.  Either way, the brief interruptions to power do not affect the control panel.
+
 ### How come the 12 volt serial line doesn't blow the ESP8266 GPIO lines?
 It's fairly simple how this operates.  The really short version is that the MOSFETs are used as level shifters. 
 
