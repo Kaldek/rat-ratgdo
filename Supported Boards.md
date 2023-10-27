@@ -20,6 +20,7 @@ For your particular board, you may need to determine which board traces map to t
 
 ### ESP-32 D1 Mini boards
 Supported by the ESPHome Ratgdo port, using the ESP32 D1 Mini YAML file for install settings, noting thepinout mappings below..  Note that the outer row of pins on the D1 Mini board are not used for ratgdo.
+
 ![ESP-32 D1 Mini Front view](https://github.com/Kaldek/rat-ratgdo/blob/main/ESP32%20D1%20Mini%20board-front.png)
 ![ESP-31 D1 Mini back view](https://github.com/Kaldek/rat-ratgdo/blob/main/ESP32%20D1%20Mini%20board-back.jpg)
 
