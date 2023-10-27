@@ -22,7 +22,7 @@ For your particular board, you may need to determine which board traces map to t
 Directly supported and uses the marked D1, D2, and D7 pins.  Note that the outer row of pins on the D1 Mini board are not connected or used
 
 ### ESP-WROOM-32
-Supported by the ESPHome Ratgdo port, using the ESP32 D1 Mini YAML file for install settings, noting that the pinouts are custom.
+Supported by the ESPHome Ratgdo port, using the ESP32 D1 Mini YAML file for install settings, noting thepinout mappings below.
 
 ![ESP-WROOM-32 board](https://github.com/Kaldek/rat-ratgdo/blob/main/ESP-WROOM-32%20board.jpg)
 
