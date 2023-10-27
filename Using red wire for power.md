@@ -18,7 +18,8 @@ Pinouts are planned as follows:
 The input capacitor of the voltage regulator module (usually rated 100uF) will be replaced with a 1000uF Low-ESR capacitor.
 
 #### Why a 1000uF capacitor?
-Serial data transmission at 9600 bits per second pulls the 12v line low for 104µs per bit.  We have not yet investigate the "common" data transmission sizes, although this is likely documented in the ratgdo source code, and are placing a capacitor large enough to deal with the following considerations at times when the +12v line is being pulled low:
+Serial data transmission at 9600 bits per second pulls the 12v line low for 104µs per bit.  We have not yet investigated the "common" data transmission sizes, although this is likely documented in the ratgdo source code, and are placing a capacitor large enough to deal with the following considerations at times when the +12v line is being pulled low:
+- Extended data transmission
 - Increases in power consumption during WiFi transmission
 - Increases in power consumption during its own serial transmission
 - Increases in power consumption during processing of received serial data
