@@ -25,4 +25,4 @@ Serial data transmission at 9600 bits per second pulls the 12v line low for 104Â
 - Increases in power consumption during WiFi transmission
 - Increases in power consumption during its own serial transmission
 - Increases in power consumption during processing of received serial data
-- Higher power consumption of ESP-32 modules
+- Higher power consumption of ESP-32 modules for all of the above scenarios
