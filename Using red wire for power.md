@@ -1,5 +1,5 @@
 ## Prototype notes for powering ESP module with red wire
-We are testing use of an LM2596 voltage regulator (buck converter) module to power the ESP without needing a separate USB power supply.
+We are testing use of an LM2596 voltage regulator (buck converter) module to power the ESP without needing a separate USB power supply.  The MyQ wired control panels source their power this way, so it should be also possible to do this for the ratgdo ESP module.
 
 ### Overview of module setup
 One of the many common pre-built LM2596 voltage regulator modules will be sourced, either as unit pre-set to 3.3v output or an adjustable unit that has been set to output 3.3v.
