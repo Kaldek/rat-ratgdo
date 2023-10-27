@@ -33,9 +33,7 @@ The obstruction sensor circuit uses two 10k resistors, one in series and one in 
 As per the code from the ratgdo project, it is 9600 bits per second.
 
 ### Could I power the ESP8266 from the +12v serial line?
-Absolutely you can try this; this is how the MyQ wall controllers work.  All you need is suitable voltage regulation from 12v to 3.3v and big enough capacitors to keep the ESP8266 powered when the 12v line is being pulled low during serial transmission pulses.
-
-We cannot speak for the maximum current capability of the +12v line, however it is likely to be high enough to power one door control panel and the ESP8266.  If you have additional wall control panels, you may exceed the capabilities of the +12v power which is available.
+This is how the MyQ wall controllers work.  We are investigating the ability to [use a voltage regulator module](https://github.com/Kaldek/rat-ratgdo/blob/main/Using%20red%20wire%20for%20power.md) to do this.
 
 ### What if I want to use SOT-23 SMD components?
 If you want to use SOT-23 SMD components rather than through-hole, the following MOSFETs are recommended:
