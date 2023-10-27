@@ -8,6 +8,14 @@ All ESP8266-based D1 Mini boards are supported, and are the hardware which the r
 ## ESP-32 based boards
 All ESP-32 boards are directly supported by the ESPHome Ratgdo port, using the [ESP32 D1 Mini YAML file for install settings for a version 2.5 ratgdo board](https://github.com/ratgdo/esphome-ratgdo/blob/v25/static/v25board_esp32_d1_mini.yaml).
 
+**Note:** The pin numbers used in the linked YAML file are only valid for the D1 Mini ESP32 boards.  Regardless of ESP-32 board used, these are the actual ESP-32 pins used:
+| ratgdo function | ESP-32 pin |
+| --------------- | ---------- |
+| TX              | GPIO22     |
+| RX              | GPIO21     |
+| Obstruction     | GPIO23     |
+
+
 ### ESP-32 D1 Mini boards
 Directly supported and uses the marked D1, D2, and D7 pins.  Note that the outer row of pins on the D1 Mini board are not connected or used
 
@@ -16,7 +24,7 @@ Supported by the ESPHome Ratgdo port, using the ESP32 D1 Mini YAML file for inst
 
 ![ESP-WROOM-32 board](https://github.com/Kaldek/rat-ratgdo/blob/main/ESP-WROOM-32%20board.jpg)
 
-GPIO pins are as follows
-- TX: GPIO22 (might be marked as D22)
-- RX: GPIO21 (might be marked as D21
-- OBST: GPIO23 (might be marked as D23
+GPIO pins are as follows:
+- TX: D22
+- RX: D21
+- Obstruction: D23
