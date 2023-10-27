@@ -7,7 +7,7 @@ Each Garage Door Opener has two wires which connect between the GDO and any wire
 However, that same +12v wire is **also** the data line which carries data between the GDO and the control panel.  This works because each serial data pulse is a brief "pull to ground" of that +12v line.  These pulses can be read by the door control panel (and, indeed read by the GDO if the data transmission is coming from the control panel and being sent to control the door).  This is how the ratgdo both receives and transmits data as well.  In essence, it appears to be just one more control device on the "bus".
 
 Chamberlain often refers to this combined +12v and data line as "E-Serial":
-![GDO wiring example from a MyQ manual](https://github.com/Kaldek/rat-ratgdo/blob/main/GDO%20wiring%20pinout%20example.png)
+![ratgdo connection example](https://github.com/Kaldek/rat-ratgdo/blob/main/ratgdo%20connection%20example.png)
 
 ### If the +12V line is constantly pulsed low during data transmission, how come the door control panel doesn't turn off?
 There's two answers to this and both are simple:
