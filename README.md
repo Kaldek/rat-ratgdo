@@ -22,7 +22,7 @@ The PCB schematic here does not describe any circuitry other than the serial lin
 See images of a [working breadboard prototype](https://github.com/Kaldek/rat-ratgdo/blob/main/Breadboard_working.png) and the [subsequent soldered prototype using a D1 shield](https://github.com/Kaldek/rat-ratgdo/blob/main/Simple%20prototype%20using%20D1%20shield.jpg).  Both of these prototypes are using 2n7000 MOSFETs exclusively, but that is because they are prototypes and long term reliability of data transmission when using the 2n7000 has not been confirmed.  See the section below on needed components for context.
 
 ## Components needed
-This schematic assumes the use of through-hole components.  If you wish to use SMD components, please refer to the [FAQ](https://github.com/Kaldek/rat-ratgdo/blob/main/FAQ.md).
+This schematic assumes the use of through-hole components.  If you wish to use SMD components, please refer to the [FAQ](https://github.com/Kaldek/rat-ratgdo/blob/main/FAQ.md#what-if-i-want-to-use-sot-23-smd-components).
 
 Aside from the obvious requirement of an ESP8266-based D1 Mini board flashed with the native ratgdo or the [ESPHome version](https://github.com/ratgdo/esphome-ratgdo), you will need 3x 10 kohm (kilo-ohm) resistors, one 2n7000 N-channel MOSFET (TO-92 package is easiest) and one IRLB8721 MOSFET (likely only available in TO-220 package).  It is also recommended you aquire a suitable 3-post screw terminal and some red, white, and black wire for connecting to the door opener.  These connections are very low current, so you can get away with fairly thin wire.
 
