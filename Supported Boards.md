@@ -5,3 +5,8 @@ All ESP8266-based D1 Mini boards are supported, and are the hardware which the r
 
 ## ESP WROOM 32
 Supported by the ESPHome Ratgdo port, using the appropriate YAML file for install settings.
+
+GPIO pins are as follows:
+- TX: D1=GPIO22
+- RX: D2=GPIO21
+- OBST: D7=GPIO23
