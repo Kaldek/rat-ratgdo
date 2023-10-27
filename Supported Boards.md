@@ -6,7 +6,7 @@ All ESP8266-based D1 Mini boards are supported, and are the hardware which the r
 ![ESP8266 D1 Mini Schematic](https://github.com/Kaldek/rat-ratgdo/blob/main/ESP8266%20D1%20Mini%20schematic%20v1.png)
 
 ## ESP-32 based boards
-All ESP-32 boards are directly supported by the ESPHome Ratgdo port, using the [ESP32 D1 Mini YAML file for install settings for a version 2.0 ratgdo board](https://github.com/ratgdo/esphome-ratgdo/blob/v2/static/v2board_esp32_d1_mini.yaml).
+All ESP-32 boards are directly supported by the ESPHome Ratgdo port, using the [ESP32 D1 Mini YAML file for install settings for a version 2.0 ratgdo board](https://github.com/ratgdo/esphome-ratgdo/blob/main/static/v2board_esp32_d1_mini.yaml).
 
 **Note:** The pin numbers mentioned in the linked YAML file are only directly valid for the D1 Mini ESP32 boards.  Regardless of ESP-32 board used, these are the **actual** ESP-32 pins used:
 | ratgdo function | ESP-32 pin |
