@@ -11,10 +11,10 @@ One of the many common pre-built LM2596 voltage regulator modules will be source
 Pinouts are planned as follows:
 | LM2596 Module Pin | GDO wire |
 | ----------------- | -------- |
-| +Input           | Red Wire |
-| -Input           | White Wire |
-| +Output (3.3v)   | ESP 3V3 |
-| -Output          | White Wire |
+| IN+         | Red Wire |
+| IN-           | White Wire |
+| OUT+ (3.3v)   | ESP 3V3 |
+| OUT-          | White Wire |
 
 ### Input Capacitor Replacement
 The input capacitor of the voltage regulator module (usually rated 100uF) will be replaced with a 1000uF Low-ESR capacitor.
