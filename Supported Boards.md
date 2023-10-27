@@ -14,6 +14,7 @@ All ESP-32 boards are directly supported by the ESPHome Ratgdo port, using the [
 | TX              | GPIO22     |
 | RX              | GPIO21     |
 | Obstruction     | GPIO23     |
+| White/GND       | GND        |
 
 For your particular board, you may need to determine which board traces map to these GPIO pins.
 
