@@ -26,7 +26,7 @@ Supported by the ESPHome Ratgdo port, using the ESP32 D1 Mini YAML file for inst
 
 ![ESP-WROOM-32 board](https://github.com/Kaldek/rat-ratgdo/blob/main/ESP-WROOM-32%20board.jpg)
 
-GPIO pins are as follows:
+GPIO pins for the ESP-WROOM-32 are as follows:
 - TX: D22
 - RX: D21
 - Obstruction: D23
