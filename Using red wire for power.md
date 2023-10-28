@@ -6,7 +6,7 @@ We are testing use of an LM2596 voltage regulator (buck converter) module to pow
 ### Overview of module setup
 One of the many common pre-built LM2596 voltage regulator modules will be sourced, either as unit pre-set to 3.3v output or an adjustable unit that has been set to output 5 volts.
 
-![LM2596 module example](https://github.com/Kaldek/rat-ratgdo/blob/main/LM2596%20module.jpg)
+![LM2596 module example](https://github.com/Kaldek/rat-ratgdo/blob/main/images/LM2596%20module.jpg)
 
 ### Pinouts
 
