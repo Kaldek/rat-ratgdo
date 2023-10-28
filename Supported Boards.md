@@ -5,7 +5,7 @@ All ESP8266-based D1 Mini boards are supported, and are the hardware which the r
 
 ![ESP8266 D1 Mini Schematic](https://github.com/Kaldek/rat-ratgdo/blob/main/schematics/ratgdo%20open%20source%20D1%20Mini_schem_v3.png)
 
-Note that the D1 Mini **board** takes 5v and an on-board regulator drops this down to the 3.3v power used by the ESP8266 chip.
+Note that the D1 Mini **module** takes 5v and an on-board regulator drops this down to the 3.3v power used by the ESP8266 chip.
 
 ## ESP-32 based boards
 All ESP-32 boards are directly supported by the ESPHome Ratgdo port, using the [ESP32 D1 Mini YAML file for install settings for a version 2.0 ratgdo board](https://github.com/ratgdo/esphome-ratgdo/blob/main/static/v2board_esp32_d1_mini.yaml).
@@ -22,7 +22,9 @@ All ESP-32 boards are directly supported by the ESPHome Ratgdo port, using the [
 
 For your particular board, you may need to determine which board traces map to these GPIO pins.
 
-![Generic ESP-32 board pinout](https://github.com/Kaldek/rat-ratgdo/blob/main/schematics/ratgdo%20open%20source%20ESP-32_schem_v3.png)
+![Generic ESP-32 board pinout](https://github.com/Kaldek/rat-ratgdo/blob/main/schematics/ratgdo%20open%20source%20ESP-32_schem_v4.png)
+
+Note that ESP-32 **modules** take 5v power from USB and an on-board regulator drops this down to the 3.3v used by the ESP-32.
 
 ### ESP-32 D1 Mini boards
 Supported by the ESPHome Ratgdo port, using the ESP32 D1 Mini YAML file for install settings, noting thepinout mappings below..  Note that the outer row of pins on the D1 Mini board are not used for ratgdo.
