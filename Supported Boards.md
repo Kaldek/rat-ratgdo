@@ -24,7 +24,7 @@ For your particular board, you may need to determine which board traces map to t
 
 ![Generic ESP-32 board pinout](https://github.com/Kaldek/rat-ratgdo/blob/main/schematics/ratgdo%20open%20source%20ESP-32_schem_v4.png)
 
-Note that ESP-32 **modules** take 5v power from USB and an on-board regulator drops this down to the 3.3v used by the ESP-32.
+Note that ESP-32 **modules** take 5v power from USB and an on-board regulator drops this down to the 3.3v used by the ESP-32 chip.
 
 ### ESP-32 D1 Mini boards
 Supported by the ESPHome Ratgdo port, using the ESP32 D1 Mini YAML file for install settings, noting thepinout mappings below..  Note that the outer row of pins on the D1 Mini board are not used for ratgdo.
