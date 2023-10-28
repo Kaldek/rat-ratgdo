@@ -33,7 +33,7 @@ The obstruction sensor circuit uses two 10k resistors, one in series and one in 
 As per the code from the ratgdo project, it is 9600 bits per second.
 
 ### Could I power the ESP8266 from the +12v serial line?
-This is how the MyQ wall controllers work.  We are investigating the ability to [use a voltage regulator module](https://github.com/Kaldek/rat-ratgdo/blob/main/Using%20red%20wire%20for%20power.md) to do this.
+This is how the MyQ wall controllers work.  We are investigating the ability to [use a voltage regulator module](https://github.com/Kaldek/rat-ratgdo/blob/main/Using%20red%20wire%20for%20power.md) to do this but so far, the regulator and ESP module draws too much current.
 
 ### What if I want to use SOT-23 SMD components?
 If you want to use SOT-23 SMD components rather than through-hole, the following MOSFETs are recommended:
