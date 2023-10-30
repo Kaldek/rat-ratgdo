@@ -1,7 +1,7 @@
 ## Prototype notes for powering ESP module with red wire
 We are testing use of an LM2596 voltage regulator (buck converter) module to power the ESP without needing a separate USB power supply.  The MyQ wired control panels source their power this way, so it should be also possible to do this for the ratgdo ESP module.
 
-**NOTE:** *Testing so far has failed.  The LM2596 and ESP8266 combined draw too much current from the +12v line for the ESP to be powered from the E-Serial lines of the Chamberlain/MyQ GDO.  However, if your GDO has the backup battery, this can be used to power the LM2596 and the ESP.*
+**NOTE:** *Testing so far has failed.  The LM2596 and ESP8266 combined draw too much current from the +12v line for the ESP to be powered from the E-Serial lines of the Chamberlain/MyQ GDO.  However, if your GDO has the backup battery or a backup battery connector, this can be used to power the LM2596 and the ESP.*
 
 ### Overview of module setup
 One of the many common pre-built LM2596 voltage regulator modules will be sourced, either as unit pre-set to 5v output or an adjustable unit that has been set to output 5 volts.
@@ -23,7 +23,7 @@ If using an ESP ***module*** these have an onboard 5v to 3.3v voltage regulator 
 
 ### Input Capacitor Replacement
 The input capacitor of the voltage regulator module (usually rated 100uF) will be replaced with a 1000uF Low-ESR capacitor.
-*This is not needed if you are pulling 12v power from the backup battery*
+*This is not needed if you are pulling 12v power from the backup battery connector*
 
 #### Why a 1000uF capacitor?
 Serial data transmission at 9600 bits per second pulls the 12v line low for 104µs per bit.  We have not yet investigated the "common" data transmission sizes, although this is likely documented in the ratgdo source code, and are placing a capacitor large enough to deal with the following considerations at times when the +12v line is being pulled low:
