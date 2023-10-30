@@ -19,7 +19,7 @@ Pinouts are planned as follows:
 | OUT-              | White Wire   |
 
 #### Why 5v output and not 3.3v?
-If using an ESP ***module*** these have an onboard 5v to 3.3v voltage regulator.  3.3v would only be used if you are powering a "naked" ESP8266.
+If using an ESP ***module*** these have an onboard 5v to 3.3v voltage regulator and do not expose a 3.3v "in" on their connectors.  3.3v would only be used if you are powering a "naked" ESP8266.
 
 ### Input Capacitor Replacement
 The input capacitor of the voltage regulator module (usually rated 100uF) will be replaced with a 1000uF Low-ESR capacitor.
