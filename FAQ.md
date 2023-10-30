@@ -41,3 +41,13 @@ If you want to use SOT-23 SMD components rather than through-hole, the following
 - TX line: AO3400A
 
 For resistors, knock yourself out.  Any size you like as long as it's 10 kohm.
+
+### My GDO terminals aren't red/white/black!
+Some of the Chamberlain GDOs have a slightly different colour scheme.  Check the manual for your specific model and look for potential different wiring labels.  Generally the GND wires are always white.
+
+**WARNING!** Some GDOs have a Red terminal which has nothing to do with what ratgdo refers to as the "Red wire", but instead might be used as a dry contact switch for installing a physical door button that Toggles the door.
+
+| Expected Wire or terminal Colour | Possible Names | Possible Colours |
+| :------------------------------- | :------------- | :--------------- |
+| Red                              | E-Serial       | Green            |
+| Black                            | IR-Sensor      | Grey             |
