@@ -42,6 +42,8 @@ If you want to use SOT-23 SMD components rather than through-hole, the following
 
 For resistors, knock yourself out.  Any size you like as long as it's 10 kohm.
 
+## Higher level topics
+
 ### My GDO terminals aren't red/white/black!
 Some of the Chamberlain GDOs have a slightly different colour scheme.  Check the manual for your specific model and look for potential different wiring labels.  Generally the GND wires are always white.
 
