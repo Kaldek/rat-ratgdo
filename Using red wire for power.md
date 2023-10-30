@@ -11,7 +11,7 @@ One of the many common pre-built LM2596 voltage regulator modules will be source
 ### Pinouts
 
 Pinouts are planned as follows:
-| LM2596 Module Pin | GDO wire                         |
+| LM2596 Module Pin | Gaeage Door Opener wires         |
 | ----------------- | -------------------------------- |
 | IN+               | Battery Backup Positive terminal |
 | IN-               | Battery Backup Negative terminal |
