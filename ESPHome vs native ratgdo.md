@@ -9,6 +9,8 @@ The benefits of using ESPHome are:
 ## Web interface benefits
 The ESPHome web interface provides full details on a single web page of all current states of the ratgdo data in real time.  It also provides a realtime console log and, if you access the web page early enought in the boot cycle of the ESP8266, you can see the hardware settings that have been applied.
 
+[Example of ESPHome Web GUI](https://github.com/Kaldek/rat-ratgdo/blob/main/images/ESPHome%20Web%20Gui%20example.png)
+
 ## Custom Pins for ratgdo functions
 The ESPHome fork of ratgdo allows you to edit configuration settings for the ratgdo device in a YAML file on your Home Assistant (HA) server.  This includes the GPIO pins that will be used for obstruction detection, TX, RX, and the dry contacts.  ESPHome will then perform an on-the-fly recompile of the ESPHome and ratgdo binary and push these settings to the ESP module **Over The Air**.
 
