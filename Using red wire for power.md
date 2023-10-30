@@ -16,7 +16,7 @@ Pinouts are planned as follows:
 | IN+               | Battery Backup Positive terminal |
 | IN-               | Battery Backup Negative terminal |
 | OUT+  (5v)        | ESP Module 5v                    |
-| OUT-              | ESP Moduile GND                  |
+| OUT-              | ESP Module GND                   |
 
 #### Why 5v output and not 3.3v?
 If using an ESP ***module*** these have an onboard 5v to 3.3v voltage regulator and do not expose a 3.3v "in" on their connectors.  3.3v would only be used if you are powering a "naked" ESP8266.
