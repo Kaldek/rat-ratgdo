@@ -4,7 +4,7 @@ We are testing use of an LM2596 voltage regulator (buck converter) module to pow
 **NOTE:** *Testing so far has failed.  The LM2596 and ESP8266 combined draw too much current from the +12v line for the ESP to be powered from the E-Serial lines of the Chamberlain/MyQ GDO.  However, if your GDO has the backup battery, this can be used to power the LM2596 and the ESP.*
 
 ### Overview of module setup
-One of the many common pre-built LM2596 voltage regulator modules will be sourced, either as unit pre-set to 3.3v output or an adjustable unit that has been set to output 5 volts.
+One of the many common pre-built LM2596 voltage regulator modules will be sourced, either as unit pre-set to 5v output or an adjustable unit that has been set to output 5 volts.
 
 ![LM2596 module example](https://github.com/Kaldek/rat-ratgdo/blob/main/images/LM2596%20module.jpg)
 
@@ -15,11 +15,15 @@ Pinouts are planned as follows:
 | ----------------- | -------- |
 | IN+         | Red Wire |
 | IN-           | White Wire |
-| OUT+ (3.3v)   | ESP 3V3 |
+| OUT+  (5v)  | ESP Module 5v |
 | OUT-          | White Wire |
+
+### Why 5v output and not 3.3v?
+If using an ESP ***module*** these have an onboard 5v to 3.3v voltage regulator.  3.3v would only be used if you are powering a "naked" ESP8266.
 
 ### Input Capacitor Replacement
 The input capacitor of the voltage regulator module (usually rated 100uF) will be replaced with a 1000uF Low-ESR capacitor.
+*This is not needed if you are pulling 12v power from the backup battery*
 
 #### Why a 1000uF capacitor?
 Serial data transmission at 9600 bits per second pulls the 12v line low for 104µs per bit.  We have not yet investigated the "common" data transmission sizes, although this is likely documented in the ratgdo source code, and are placing a capacitor large enough to deal with the following considerations at times when the +12v line is being pulled low:
