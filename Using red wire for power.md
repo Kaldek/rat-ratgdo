@@ -16,7 +16,7 @@ One of the many common pre-built LM2596 voltage regulator modules can be used, e
 
 Pinouts are planned as follows for using the Battery Backup terminals on the GDO:
 | LM2596 Module Pin | Garage Door Opener wires         |
-| ----------------- | -------------------------------- |
+| :---------------- | :------------------------------- |
 | IN+               | Battery Backup Positive terminal |
 | IN-               | Battery Backup Negative terminal |
 | OUT+  (5v)        | ESP Module 5v                    |
