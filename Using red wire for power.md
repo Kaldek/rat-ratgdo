@@ -8,7 +8,7 @@ Testing using this method has failed.  The LM2596 and ESP8266 combined draw too 
 GDO models that are compatible with the Standby Battery Power System (e.g., the PN 475LM, [disassembly video](https://www.youtube.com/watch?v=qWsHb-kiO6w)) can use the same 2-pin connector to power their LM2596 module.  Just be sure that you first adjust the output of your LM2596 voltage regulator to 5v or 3v3 **before** you connect it to your ESP.  More information on the connector can be found in [this thread](https://www.garagejournal.com/forum/threads/battery-backuo-connector-for-liftmaster-8500-garage-door-opener.514321/).
 
 ### Overview of module setup
-One of the many common pre-built LM2596 voltage regulator modules will be sourced, either as unit pre-set to 5v output or an adjustable unit that has been set to output 5 volts.
+One of the many common pre-built LM2596 voltage regulator modules can be used, either as unit pre-set to 5v output or an adjustable unit that has been set to output 5 volts.
 
 ![LM2596 module example](https://github.com/Kaldek/rat-ratgdo/blob/main/images/LM2596%20module.jpg)
 
