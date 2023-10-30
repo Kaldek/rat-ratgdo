@@ -3,6 +3,9 @@ We are testing use of an LM2596 voltage regulator (buck converter) module to pow
 
 **NOTE:** *Testing so far has failed.  The LM2596 and ESP8266 combined draw too much current from the +12v line for the ESP to be powered from the E-Serial lines of the Chamberlain/MyQ GDO.  However, if your GDO has the backup battery or a backup battery connector, this can be used to power the LM2596 and the ESP.*
 
+# Alternative if you have an opener that supports battery backup
+Models that are compatible with the Standby Battery Power System (PN 475LM, [disassembly video](https://www.youtube.com/watch?v=qWsHb-kiO6w)) can use the same 2-pin connector to power their LM2596 module.  Just be sure that you first adjust the output to 5v or 3v3 **before** you connect it to your ESP.  More information on the connector can be found in [this thread](https://www.garagejournal.com/forum/threads/battery-backuo-connector-for-liftmaster-8500-garage-door-opener.514321/).
+
 ### Overview of module setup
 One of the many common pre-built LM2596 voltage regulator modules will be sourced, either as unit pre-set to 5v output or an adjustable unit that has been set to output 5 volts.
 
@@ -21,8 +24,6 @@ Pinouts are planned as follows for using the Battery Backup terminals on the GDO
 #### Why 5v output and not 3.3v?
 If using an ESP ***module*** these have an onboard 5v to 3.3v voltage regulator and do not expose a 3.3v "in" on their connectors.  3.3v would only be used if you are powering a "naked" ESP8266.
 
-# Alternative if you have an opener that supports battery backup
-Models that are compatible with the Standby Battery Power System (PN 475LM, [disassembly video](https://www.youtube.com/watch?v=qWsHb-kiO6w)) can use the same 2-pin connector to power their LM2596 module.  Just be sure that you first adjust the output to 5v or 3v3 **before** you connect it to your ESP.  More information on the connector can be found in [this thread](https://www.garagejournal.com/forum/threads/battery-backuo-connector-for-liftmaster-8500-garage-door-opener.514321/).  
 
 ~~### Input Capacitor Replacement
 The input capacitor of the voltage regulator module (usually rated 100uF) will be replaced with a 1000uF Low-ESR capacitor.
