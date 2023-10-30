@@ -24,19 +24,3 @@ Pinouts are planned as follows for using the Battery Backup terminals on the GDO
 
 #### Why 5v output and not 3.3v?
 If using an ESP ***module*** these have an onboard 5v to 3.3v voltage regulator and do not expose a 3.3v "in" on their connectors.  3.3v would only be used if you are powering a "naked" ESP8266.
-
-
-~~### Input Capacitor Replacement
-The input capacitor of the voltage regulator module (usually rated 100uF) will be replaced with a 1000uF Low-ESR capacitor.
-*This is not needed if you are pulling 12v power from the backup battery connector*~~
-
-~~#### Why a 1000uF capacitor?
-Serial data transmission at 9600 bits per second pulls the 12v line low for 104µs per bit.  We have not yet investigated the "common" data transmission sizes, although this is likely documented in the ratgdo source code, and are placing a capacitor large enough to deal with the following considerations at times when the +12v line is being pulled low:~~
-~~- Extended data transmission~~
-~~- Increases in power consumption during WiFi transmission~~
-~~- Increases in power consumption during its own serial transmission~~
-~~- Increases in power consumption during processing of received serial data~~
-~~- Higher power consumption of ESP-32 modules for all of the above scenarios~~
-
-
-
