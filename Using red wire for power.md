@@ -28,3 +28,7 @@ Serial data transmission at 9600 bits per second pulls the 12v line low for 104Â
 - Increases in power consumption during its own serial transmission
 - Increases in power consumption during processing of received serial data
 - Higher power consumption of ESP-32 modules for all of the above scenarios
+
+
+# Alternative if you have an opener that supports battery backup
+Models that are compatible with the Standby Battery Power System (PN 475LM, [disassembly video](https://www.youtube.com/watch?v=qWsHb-kiO6w)) can use the same 2-pin connector to power their LM2596 module.  Just be sure that you first adjust the output to 5v or 3v3 **before** you connect it to your ESP.  More information on the connector can be found in [this thread](https://www.garagejournal.com/forum/threads/battery-backuo-connector-for-liftmaster-8500-garage-door-opener.514321/).  
