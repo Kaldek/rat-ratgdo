@@ -5,19 +5,11 @@
       "Application": "Pcbnew",
       "Version": "7.0.7"
     },
-<<<<<<< Updated upstream
-    "CreationDate": "2023-10-30T20:38:44-06:00"
+    "CreationDate": "2023-10-30T21:57:52-06:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "RatGDO-OpenSource-D1Mini-ESP8266",
-=======
-    "CreationDate": "2023-10-28T20:58:12-06:00"
-  },
-  "GeneralSpecs": {
-    "ProjectId": {
-      "Name": "RatGDO-OpenSource",
->>>>>>> Stashed changes
       "GUID": "52617447-444f-42d4-9f70-656e536f7572",
       "Revision": "rev?"
     },
@@ -42,83 +34,47 @@
   ],
   "FilesAttributes": [
     {
-<<<<<<< Updated upstream
       "Path": "RatGDO-OpenSource-D1Mini-ESP8266-F_Cu.gtl",
-=======
-      "Path": "RatGDO-OpenSource-F_Cu.gtl",
->>>>>>> Stashed changes
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-<<<<<<< Updated upstream
       "Path": "RatGDO-OpenSource-D1Mini-ESP8266-B_Cu.gbl",
-=======
-      "Path": "RatGDO-OpenSource-B_Cu.gbl",
->>>>>>> Stashed changes
       "FileFunction": "Copper,L2,Bot",
       "FilePolarity": "Positive"
     },
     {
-<<<<<<< Updated upstream
       "Path": "RatGDO-OpenSource-D1Mini-ESP8266-F_Paste.gtp",
-=======
-      "Path": "RatGDO-OpenSource-F_Paste.gtp",
->>>>>>> Stashed changes
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-<<<<<<< Updated upstream
       "Path": "RatGDO-OpenSource-D1Mini-ESP8266-B_Paste.gbp",
-=======
-      "Path": "RatGDO-OpenSource-B_Paste.gbp",
->>>>>>> Stashed changes
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
-<<<<<<< Updated upstream
       "Path": "RatGDO-OpenSource-D1Mini-ESP8266-F_Silkscreen.gto",
-=======
-      "Path": "RatGDO-OpenSource-F_Silkscreen.gto",
->>>>>>> Stashed changes
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-<<<<<<< Updated upstream
       "Path": "RatGDO-OpenSource-D1Mini-ESP8266-B_Silkscreen.gbo",
-=======
-      "Path": "RatGDO-OpenSource-B_Silkscreen.gbo",
->>>>>>> Stashed changes
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-<<<<<<< Updated upstream
       "Path": "RatGDO-OpenSource-D1Mini-ESP8266-F_Mask.gts",
-=======
-      "Path": "RatGDO-OpenSource-F_Mask.gts",
->>>>>>> Stashed changes
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-<<<<<<< Updated upstream
       "Path": "RatGDO-OpenSource-D1Mini-ESP8266-B_Mask.gbs",
-=======
-      "Path": "RatGDO-OpenSource-B_Mask.gbs",
->>>>>>> Stashed changes
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-<<<<<<< Updated upstream
       "Path": "RatGDO-OpenSource-D1Mini-ESP8266-Edge_Cuts.gm1",
-=======
-      "Path": "RatGDO-OpenSource-Edge_Cuts.gm1",
->>>>>>> Stashed changes
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }

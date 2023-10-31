@@ -1,21 +1,12 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,7.0.7*%
-<<<<<<< Updated upstream
-%TF.CreationDate,2023-10-30T20:42:16-06:00*%
+%TF.CreationDate,2023-10-30T22:04:51-06:00*%
 %TF.ProjectId,RatGDO-OpenSource-D1Mini-ESP32,52617447-444f-42d4-9f70-656e536f7572,rev?*%
-=======
-%TF.CreationDate,2023-10-28T20:58:12-06:00*%
-%TF.ProjectId,RatGDO-OpenSource,52617447-444f-42d4-9f70-656e536f7572,rev?*%
->>>>>>> Stashed changes
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Paste,Bot*%
 %TF.FilePolarity,Positive*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-<<<<<<< Updated upstream
-G04 Created by KiCad (PCBNEW 7.0.7) date 2023-10-30 20:42:16*
-=======
-G04 Created by KiCad (PCBNEW 7.0.7) date 2023-10-28 20:58:12*
->>>>>>> Stashed changes
+G04 Created by KiCad (PCBNEW 7.0.7) date 2023-10-30 22:04:51*
 %MOMM*%
 %LPD*%
 G01*
