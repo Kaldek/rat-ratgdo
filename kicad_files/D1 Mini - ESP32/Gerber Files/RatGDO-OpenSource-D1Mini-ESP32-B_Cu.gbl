@@ -1,12 +1,12 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,7.0.7*%
-%TF.CreationDate,2023-10-31T06:33:55-06:00*%
+%TF.CreationDate,2023-10-31T08:07:36-06:00*%
 %TF.ProjectId,RatGDO-OpenSource-D1Mini-ESP32,52617447-444f-42d4-9f70-656e536f7572,rev?*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Copper,L2,Bot*%
 %TF.FilePolarity,Positive*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 7.0.7) date 2023-10-31 06:33:55*
+G04 Created by KiCad (PCBNEW 7.0.7) date 2023-10-31 08:07:36*
 %MOMM*%
 %LPD*%
 G01*
@@ -56,11 +56,11 @@ G04 Aperture macros list end*
 G04 APERTURE END LIST*
 D10*
 %TO.P,J3,1,Pin_1*%
-%TO.N,Net-(J1-Pin_1)*%
+%TO.N,Net-(J1-BLK{slash}OBST)*%
 X147320000Y-111760000D03*
 D11*
 %TO.P,J3,2,Pin_2*%
-%TO.N,Net-(J1-Pin_2)*%
+%TO.N,Net-(J1-RED{slash}CTRL)*%
 X149860000Y-111760000D03*
 %TO.P,J3,3,Pin_3*%
 %TO.N,GND*%
@@ -190,33 +190,33 @@ X154940000Y-88900000D03*
 %TD*%
 D13*
 %TO.P,J2,1,Pin_1*%
-%TO.N,Net-(J1-Pin_1)*%
+%TO.N,Net-(J1-BLK{slash}OBST)*%
 X146670000Y-119380000D03*
 D14*
 %TO.P,J2,2,Pin_2*%
-%TO.N,Net-(J1-Pin_2)*%
+%TO.N,Net-(J1-RED{slash}CTRL)*%
 X150170000Y-119380000D03*
 %TO.P,J2,3,Pin_3*%
 %TO.N,GND*%
 X153670000Y-119380000D03*
 %TD*%
 D15*
-%TO.P,J1,1,Pin_1*%
-%TO.N,Net-(J1-Pin_1)*%
+%TO.P,J1,1,BLK/OBST*%
+%TO.N,Net-(J1-BLK{slash}OBST)*%
 X129700000Y-118415000D03*
 D16*
-%TO.P,J1,2,Pin_2*%
-%TO.N,Net-(J1-Pin_2)*%
+%TO.P,J1,2,RED/CTRL*%
+%TO.N,Net-(J1-RED{slash}CTRL)*%
 X134700000Y-118415000D03*
-%TO.P,J1,3,Pin_3*%
+%TO.P,J1,3,WHT/GND*%
 %TO.N,GND*%
 X139700000Y-118415000D03*
 %TD*%
 D17*
 %TO.N,GND*%
-X160020000Y-81280000D03*
-X160020000Y-72390000D03*
-X157480000Y-78740000D03*
+X161290000Y-78740000D03*
+X158750000Y-77470000D03*
+X161290000Y-72390000D03*
 X121920000Y-80010000D03*
 %TD*%
 %TA.AperFunction,Conductor*%
