@@ -1,7 +1,13 @@
 "Id";"Designator";"Footprint";"Quantity";"Designation";"Supplier and ref";
+<<<<<<< Updated upstream
 1;"R3,R2,R1";"R_0805_2012Metric";3;"10k";;;
 2;"Q2";"SOT-23";1;"AO3400A";;;
 3;"U2";"ESP32_mini";1;"mini_esp32";;;
+=======
+1;"U1";"WEMOS_D1_mini_light";1;"WeMos_D1_mini";;;
+2;"R3,R2,R1";"R_0805_2012Metric";3;"10k";;;
+3;"Q2";"SOT-23";1;"AO3400A";;;
+>>>>>>> Stashed changes
 4;"Q1";"SOT-23";1;"2N7002";;;
 5;"J2";"PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical";1;"Screw_Terminal_01x03";;;
 6;"J1";"TerminalBlock_Phoenix_MKDS-1,5-3_1x03_P5.00mm_Horizontal";1;"Screw_Terminal_01x03";;;

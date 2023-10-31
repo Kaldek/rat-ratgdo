@@ -1,12 +1,21 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,7.0.7*%
+<<<<<<< Updated upstream
 %TF.CreationDate,2023-10-30T20:38:44-06:00*%
 %TF.ProjectId,RatGDO-OpenSource-D1Mini-ESP8266,52617447-444f-42d4-9f70-656e536f7572,rev?*%
+=======
+%TF.CreationDate,2023-10-28T20:58:12-06:00*%
+%TF.ProjectId,RatGDO-OpenSource,52617447-444f-42d4-9f70-656e536f7572,rev?*%
+>>>>>>> Stashed changes
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Soldermask,Bot*%
 %TF.FilePolarity,Negative*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+<<<<<<< Updated upstream
 G04 Created by KiCad (PCBNEW 7.0.7) date 2023-10-30 20:38:44*
+=======
+G04 Created by KiCad (PCBNEW 7.0.7) date 2023-10-28 20:58:12*
+>>>>>>> Stashed changes
 %MOMM*%
 %LPD*%
 G01*
@@ -29,15 +38,22 @@ G04 Aperture macros list*
 20,1,$1+$1,$6,$7,$8,$9,0*
 20,1,$1+$1,$8,$9,$2,$3,0*%
 G04 Aperture macros list end*
+<<<<<<< Updated upstream
 %ADD10C,5.000000*%
 %ADD11R,2.000000X2.000000*%
 %ADD12O,2.000000X1.600000*%
+=======
+%ADD10R,2.000000X2.000000*%
+%ADD11O,2.000000X1.600000*%
+%ADD12C,5.000000*%
+>>>>>>> Stashed changes
 %ADD13RoundRect,0.250000X-0.650000X-1.550000X0.650000X-1.550000X0.650000X1.550000X-0.650000X1.550000X0*%
 %ADD14O,1.800000X3.600000*%
 %ADD15R,2.600000X2.600000*%
 %ADD16C,2.600000*%
 G04 APERTURE END LIST*
 D10*
+<<<<<<< Updated upstream
 %TO.C,REF\u002A\u002A*%
 X162560000Y-63500000D03*
 %TD*%
@@ -48,6 +64,11 @@ D11*
 %TO.C,U1*%
 X129547500Y-66160000D03*
 D12*
+=======
+%TO.C,U1*%
+X129547500Y-66160000D03*
+D11*
+>>>>>>> Stashed changes
 X129547500Y-68700000D03*
 X129547500Y-71240000D03*
 X129547500Y-73780000D03*
@@ -64,7 +85,17 @@ X152407500Y-71240000D03*
 X152407500Y-68700000D03*
 X152407500Y-66160000D03*
 %TD*%
+<<<<<<< Updated upstream
 D10*
+=======
+D12*
+%TO.C,REF\u002A\u002A*%
+X162560000Y-63500000D03*
+%TD*%
+%TO.C,REF\u002A\u002A*%
+X162560000Y-118110000D03*
+%TD*%
+>>>>>>> Stashed changes
 %TO.C,REF\u002A\u002A*%
 X120650000Y-118110000D03*
 %TD*%

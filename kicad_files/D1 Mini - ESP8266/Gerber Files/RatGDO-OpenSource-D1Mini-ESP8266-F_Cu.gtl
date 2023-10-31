@@ -1,12 +1,21 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,7.0.7*%
+<<<<<<< Updated upstream
 %TF.CreationDate,2023-10-30T20:38:44-06:00*%
 %TF.ProjectId,RatGDO-OpenSource-D1Mini-ESP8266,52617447-444f-42d4-9f70-656e536f7572,rev?*%
+=======
+%TF.CreationDate,2023-10-28T20:58:11-06:00*%
+%TF.ProjectId,RatGDO-OpenSource,52617447-444f-42d4-9f70-656e536f7572,rev?*%
+>>>>>>> Stashed changes
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Copper,L1,Top*%
 %TF.FilePolarity,Positive*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+<<<<<<< Updated upstream
 G04 Created by KiCad (PCBNEW 7.0.7) date 2023-10-30 20:38:44*
+=======
+G04 Created by KiCad (PCBNEW 7.0.7) date 2023-10-28 20:58:11*
+>>>>>>> Stashed changes
 %MOMM*%
 %LPD*%
 G01*
@@ -29,6 +38,7 @@ G04 Aperture macros list*
 20,1,$1+$1,$6,$7,$8,$9,0*
 20,1,$1+$1,$8,$9,$2,$3,0*%
 G04 Aperture macros list end*
+<<<<<<< Updated upstream
 %TA.AperFunction,SMDPad,CuDef*%
 %ADD10RoundRect,0.250000X0.262500X0.450000X-0.262500X0.450000X-0.262500X-0.450000X0.262500X-0.450000X0*%
 %TD*%
@@ -37,6 +47,16 @@ G04 Aperture macros list end*
 %TD*%
 %TA.AperFunction,ComponentPad*%
 %ADD12O,2.000000X1.600000*%
+=======
+%TA.AperFunction,ComponentPad*%
+%ADD10R,2.000000X2.000000*%
+%TD*%
+%TA.AperFunction,ComponentPad*%
+%ADD11O,2.000000X1.600000*%
+%TD*%
+%TA.AperFunction,SMDPad,CuDef*%
+%ADD12RoundRect,0.250000X0.262500X0.450000X-0.262500X0.450000X-0.262500X-0.450000X0.262500X-0.450000X0*%
+>>>>>>> Stashed changes
 %TD*%
 %TA.AperFunction,SMDPad,CuDef*%
 %ADD13RoundRect,0.150000X-0.587500X-0.150000X0.587500X-0.150000X0.587500X0.150000X-0.587500X0.150000X0*%
@@ -67,6 +87,7 @@ G04 Aperture macros list end*
 %TD*%
 G04 APERTURE END LIST*
 D10*
+<<<<<<< Updated upstream
 %TO.P,R3,1*%
 %TO.N,GND*%
 X159662500Y-71264162D03*
@@ -79,6 +100,12 @@ D11*
 %TO.N,unconnected-(U1-~{RST}-Pad1)*%
 X129547500Y-66160000D03*
 D12*
+=======
+%TO.P,U1,1,~{RST}*%
+%TO.N,unconnected-(U1-~{RST}-Pad1)*%
+X129547500Y-66160000D03*
+D11*
+>>>>>>> Stashed changes
 %TO.P,U1,2,A0*%
 %TO.N,unconnected-(U1-A0-Pad2)*%
 X129547500Y-68700000D03*
@@ -125,6 +152,17 @@ X152407500Y-68700000D03*
 %TO.N,unconnected-(U1-TX-Pad16)*%
 X152407500Y-66160000D03*
 %TD*%
+<<<<<<< Updated upstream
+=======
+D12*
+%TO.P,R3,1*%
+%TO.N,GND*%
+X159662500Y-71264162D03*
+%TO.P,R3,2*%
+%TO.N,Net-(Q2-G)*%
+X157837500Y-71264162D03*
+%TD*%
+>>>>>>> Stashed changes
 D13*
 %TO.P,Q2,1,G*%
 %TO.N,Net-(Q2-G)*%
@@ -171,7 +209,11 @@ X134700000Y-118415000D03*
 %TO.N,GND*%
 X139700000Y-118415000D03*
 %TD*%
+<<<<<<< Updated upstream
 D10*
+=======
+D12*
+>>>>>>> Stashed changes
 %TO.P,R2,1*%
 %TO.N,Net-(U1-MOSI{slash}D7)*%
 X124102500Y-78740000D03*
@@ -196,6 +238,13 @@ X121920000Y-80010000D03*
 %TD*%
 D21*
 %TO.N,Net-(J1-Pin_2)*%
+<<<<<<< Updated upstream
+=======
+X159687500Y-107012500D02*
+X152400000Y-114300000D01*
+X159687500Y-84437500D02*
+X159687500Y-107012500D01*
+>>>>>>> Stashed changes
 X160750000Y-83375000D02*
 X159687500Y-84437500D01*
 X160750000Y-76930000D02*
@@ -210,12 +259,17 @@ X138815000Y-114300000D02*
 X148590000Y-114300000D01*
 X134700000Y-118415000D02*
 X138815000Y-114300000D01*
+<<<<<<< Updated upstream
 X159687500Y-84437500D02*
 X159687500Y-107012500D01*
 X150170000Y-115880000D02*
 X150170000Y-119380000D01*
 X159687500Y-107012500D02*
 X152400000Y-114300000D01*
+=======
+X150170000Y-115880000D02*
+X150170000Y-119380000D01*
+>>>>>>> Stashed changes
 %TO.N,Net-(J1-Pin_1)*%
 X129700000Y-118415000D02*
 X122277500Y-110992500D01*
