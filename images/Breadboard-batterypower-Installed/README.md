@@ -1,7 +1,7 @@
 ## Internally Powered rat-ratGDO
 I ended up creating this so that it didnt need additional usb power
 <br>
-<img src="/images/Breadboard-Installed/BoardWired.png" width="50%" />
+<img src="/images/Breadboard-batterypower-Installed/BoardWired.png" width="50%" />
 
 ## Changes to Existing
 
@@ -9,11 +9,11 @@ To make this work i used an L7805CV 5V regulator with a 100uF cap on the input, 
 
 Instead of pulling from the battery side i unscrewed the circuit panel and used some vamp clips (dont hate me) to pull the voltage to a new connector that is then provided to the breadboard.
 
-<img src="/images/Breadboard-Installed/BatteryBackupWires.png" width="50%" />
+<img src="/images/Breadboard-batterypower-Installed/BatteryBackupWires.png" width="50%" />
 
 ### Here is the full Install
 
-<img src="/images/Breadboard-Installed/CompleteInstall.png" width="50%" />
+<img src="/images/Breadboard-batterypower-Installed/CompleteInstall.png" width="50%" />
 
   
 
