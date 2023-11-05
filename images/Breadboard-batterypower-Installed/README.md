@@ -11,6 +11,7 @@ The example shown uses vampire clips to connect to the 12v wiring of the battery
 <img src="/images/Breadboard-batterypower-Installed/BatteryBackupWires.png" width="50%" />
 
 The full install is shown here.
+
 <img src="/images/Breadboard-batterypower-Installed/CompleteInstall.png" width="50%" />
   
 <br>
