@@ -118,6 +118,7 @@
   (net 40 "unconnected-(U2-NC-Pad3)")
   (net 41 "unconnected-(U2-GND-Pad1)")
   (net 42 "unconnected-(U2-RST-Pad2)")
+  (net 43 "Net-(U1-IO_23{slash}D7)")
 
   (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
     (tstamp 1d510a84-4f2c-46f3-9090-2dca07a95c59)
@@ -406,9 +407,8 @@
     (at 140.97 77.47)
     (property "Sheetfile" "RatGDO-OpenSource-D1Mini-ESP32.kicad_sch")
     (property "Sheetname" "")
-    (path "/33d2b6be-18d2-4d4e-a22d-b72f0d92db23")
     (attr through_hole)
-    (fp_text reference "U2" (at 7.62 19.05) (layer "F.SilkS")
+    (fp_text reference "U1" (at 7.62 19.05) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 821d0374-330c-4751-8d78-1ae603cf1e1f)
     )
@@ -981,7 +981,7 @@
     (fp_line (start 1 0.625) (end -1 0.625)
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp fb2a485d-29fa-4a66-b197-4d086052b933))
     (pad "1" smd roundrect (at -0.9125 0 180) (size 1.025 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.243902439)
-      (net 8 "Net-(U2-IO_23{slash}D7)") (pintype "passive") (tstamp db8613f2-ccbe-468d-9cf4-d2904c1a1ced))
+      (net 43 "Net-(U1-IO_23{slash}D7)") (pintype "passive") (tstamp db8613f2-ccbe-468d-9cf4-d2904c1a1ced))
     (pad "2" smd roundrect (at 0.9125 0 180) (size 1.025 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.243902439)
       (net 6 "GND") (pintype "passive") (tstamp 55279782-cfec-47bb-bbc6-9382d2379aed))
     (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
@@ -1037,7 +1037,7 @@
     (pad "1" smd roundrect (at -0.9125 0) (size 1.025 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.243902439)
       (net 1 "Net-(J1-BLK{slash}OBST)") (pintype "passive") (tstamp 08132efd-dc81-4eb6-9868-77534d4c86dd))
     (pad "2" smd roundrect (at 0.9125 0) (size 1.025 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.243902439)
-      (net 8 "Net-(U2-IO_23{slash}D7)") (pintype "passive") (tstamp d2dd82b0-8b3f-4e96-8b9f-2ed218a016c6))
+      (net 43 "Net-(U1-IO_23{slash}D7)") (pintype "passive") (tstamp d2dd82b0-8b3f-4e96-8b9f-2ed218a016c6))
     (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))

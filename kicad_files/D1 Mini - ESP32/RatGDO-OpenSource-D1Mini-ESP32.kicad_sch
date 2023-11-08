@@ -1172,7 +1172,7 @@
   (symbol (lib_id "ESP32_mini:mini_esp32") (at 72.39 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 33d2b6be-18d2-4d4e-a22d-b72f0d92db23)
-    (property "Reference" "U2" (at 73.025 48.26 0)
+    (property "Reference" "U1" (at 73.025 48.26 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "mini_esp32" (at 73.025 50.8 0)
@@ -1227,7 +1227,7 @@
     (instances
       (project "RatGDO-OpenSource-D1Mini-ESP32"
         (path "/d526daf5-1a87-4c4a-b8db-6120ccadc008"
-          (reference "U2") (unit 1)
+          (reference "U1") (unit 1)
         )
       )
     )
