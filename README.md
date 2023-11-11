@@ -28,7 +28,7 @@ This schematic assumes the use of through-hole components.  If you wish to use S
 
 Aside from the obvious requirement of a [supported ESP-32 or ESP8266 board](https://github.com/Kaldek/rat-ratgdo/blob/main/Supported%20Boards.md) flashed with the [ESPHome version](https://github.com/ratgdo/esphome-ratgdo), you will need 3x 10 kohm (kilo-ohm) resistors, one 2n7000 N-channel MOSFET (TO-92 package is easiest) and one RFP30N06LE MOSFET.  It is also recommended you aquire a suitable 3-post screw terminal and some red, white, and black wire for connecting to the door opener.  These connections are very low current, so you can get away with fairly thin wire.
 
-**Note:** If you cannot source an RFP30N06LE and you're really stuck you can use another 2n7000 MOSFET, however this is borderline for switching using 3.3v logic.
+**Note:** If you cannot source an RFP30N06LE and you're really stuck you can use another 2n7000 MOSFET, however depending on your batch it might not be 100% reliable.  There are many examples working using the 2n7000 however, so there is a very high chance it will work.
 
 **WARNING!** This schematic alone will not work with a "raw" ESP8266 without the D1 mini board.  Certain models of ESP8266 will not boot without some pullup resistors.  This is not to say that we can't add these distinctions and clarifications in future (e.g., which ESP model to buy such as ESP-12S vs ESP-12F) but for now, this project lacks that guidance.
 
