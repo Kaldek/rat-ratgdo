@@ -41,6 +41,11 @@ For the ESP8266 based boards, if installing using Paul Wieland's native ratgdo i
 ## How the ratgdo circuit works
 The ratgdo circuitry which we cover in this project consists of two sections; Garage Door control and obstruction sensors.
 
+## Having a PCB printed
+You may use the files from the schematics folder to have your own PCB printed.  We provide an example of what these boards would look like when printed and populated, ready for a Wemos D1 Mini module.
+
+![3D render of printed PCB](https://github.com/Kaldek/rat-ratgdo/blob/main/images/3D%20render%20of%20schematic.png)
+
 ### Garage Door Control
 #### Description of the Chamberlain configuration
 The Chamberlain garage door control circuit is a two-wire setup consisting of a Ground, and a combined +12v power and serial data line.  The serial data line is held at 12v unless data transmission is occurring.  Data transmission is performed by pulling the 12v line down to GND for each data bit.  The benefit here is that a single wire can be used for providing power to door control panels and data transmssion on a single wire.  The use of appropriately sized capacitors in door control panels means they do not switch off during data transmission.  
