@@ -22,7 +22,7 @@ All ESP-32 boards are directly supported by the ESPHome Ratgdo port, using the [
 
 For your particular board, you may need to determine which board traces map to these GPIO pins.
 
-![Generic ESP-32 board pinout](https://github.com/Kaldek/rat-ratgdo/blob/main/schematics/ratgdo%20open%20source%20ESP-32_schem_v5.png)
+![Generic ESP-32 board pinout](https://github.com/Kaldek/rat-ratgdo/blob/main/schematics/ratgdo%20open%20source%20ESP-32_schem_v6.png)
 
 Note that ESP-32 **modules** take 5v power from USB and an on-board regulator drops this down to the 3.3v used by the ESP-32 chip.
 
