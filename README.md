@@ -38,13 +38,13 @@ Due the schematics we have provided and how they are laid out, you must use the 
 
 For the ESP8266 based boards, if installing using Paul Wieland's native ratgdo installer and you install for a v2.0 board, you must wire your TX to D4 (GPIO2) rather than D1 (GPIO5). 
 
-## How the ratgdo circuit works
-The ratgdo circuitry which we cover in this project consists of two sections; Garage Door control and obstruction sensors.
-
 ## Having a PCB printed
 You may use the files from the schematics folder to have your own PCB printed.  We provide an example of what these boards would look like when printed and populated, ready for a Wemos D1 Mini module.
 
 ![3D render of printed PCB](https://github.com/Kaldek/rat-ratgdo/blob/main/images/3D%20render%20of%20schematic.png)
+
+## How the ratgdo circuit works
+The ratgdo circuitry which we cover in this project consists of two sections; Garage Door control and obstruction sensors.
 
 ### Garage Door Control
 #### Description of the Chamberlain configuration
