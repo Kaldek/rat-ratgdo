@@ -1,8 +1,0 @@
-"Id";"Designator";"Footprint";"Quantity";"Designation";"Supplier and ref";
-1;"U1";"ESP32_mini";1;"mini_esp32";;;
-2;"R3,R2,R1";"R_0805_2012Metric";3;"10k";;;
-3;"J3";"PinSocket_1x03_P2.54mm_Vertical";1;"Screw_Terminal_01x03";;;
-4;"Q2";"SOT-23";1;"AO3400A";;;
-5;"Q1";"SOT-23";1;"2N7002";;;
-6;"J2";"PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical";1;"Screw_Terminal_01x03";;;
-7;"J1";"TerminalBlock_Phoenix_MKDS-1,5-3_1x03_P5.00mm_Horizontal";1;"Screw_Terminal_01x03";;;
