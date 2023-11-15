@@ -5,18 +5,23 @@ on:
     paths:
     - '**.sch'
     - '**.kicad_pcb'
+    - '.github/**.yml' # Trigger on changes to the workflow file
+    - '**.kibot.yml' # Trigger on changes to the KiBot config file used in the workflow
+
   pull_request:
     paths:
       - '**.sch'
       - '**.kicad_pcb'
+      - '.github/**.yml' # Trigger on changes to the workflow file
+      - '**.kibot.yml' # Trigger on changes to the KiBot config file used in the workflow
 
   # To allow for manual triggering from the Action console, add workflow_dispatch
   workflow_dispatch:
     inputs:
       name:
-        description: 'Workflow run name'
+        description: 'Reason for build'
         required: false
-        default: 'Manual test run'
+        default: 'Generate new gerber files'
 
 jobs:
   d1_mini_esp32_wide:
@@ -74,4 +79,23 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
         name: D1 Mini - ESP8266
+        path: output
+
+  bare_esp8266:
+    name: Bare ESP8266
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - uses: INTI-CMNB/KiBot@v2_k7
+      with:
+        # Required - kibot config file
+        config: kicad_files/jlcpcb_gerbers.kibot.yaml
+        # optional - prefix to output defined in config
+        dir: output
+        schema: kicad_files/Bare ESP8266/RatGDO-OpenSource-Bare-ESP8266.kicad_sch
+        board: kicad_files/Bare ESP8266/RatGDO-OpenSource-Bare-ESP8266.kicad_pcb
+    - name: upload results
+      uses: actions/upload-artifact@v3
+      with:
+        name: Bare ESP8266
         path: output
