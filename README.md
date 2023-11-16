@@ -51,7 +51,7 @@ We provide a few options of schematic files suitable for sending to a PCB printi
 - [Wemos D1 Mini ESP32 Wide Format](kicad_files/D1%20Mini%20Wide%20-%20ESP32)
 - [Bare ESP8266 module](kicad_files/Bare%20ESP8266)
 
-> If you just want to try ordering a board from somewhere like JLCPCB, then check out the most recent [build artifacts](https://github.com/Kaldek/rat-ratgdo/actions/workflows/pcb.yaml)
+> If you just want to try ordering a board from somewhere like PCBWay, then check out the most recent [build artifacts](https://github.com/Kaldek/rat-ratgdo/actions/workflows/pcb.yaml)
 
 ## How the ratgdo circuit works
 The ratgdo circuitry which we cover in this project consists of two sections; Garage Door control and obstruction sensors.
