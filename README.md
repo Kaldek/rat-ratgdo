@@ -39,7 +39,7 @@ Due the schematics we have provided and how they are laid out, you must use the 
 For the ESP8266 based boards, if installing using Paul Wieland's native ratgdo installer and you install for a v2.0 board, you must wire your TX to D4 (GPIO2) rather than D1 (GPIO5).
 
 ## Having a PCB printed
-You may use the files from the [schematics folder](kicad_files) to have your own PCB printed.  We provide an example of what these boards would look like when printed and populated, ready for a Wemos ESP32 D1 Mini module.
+You may use the files from the [schematics folder](kicad_files) to have your own PCB printed.  Shown is an example 3D render of an ESP32 based board using a Wemos ESP32 D1 board.
 
 ![3D render of printed PCB](images/3D%20render%20of%20schematic.png)
 _An example of the D1 Mini ESP32 Wide Format_
