@@ -2,3 +2,5 @@ fp-info-cache
 *.lck
 
 /*-backups
+/production
+/Gerber Files
