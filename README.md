@@ -25,16 +25,16 @@ The ***basic*** PCB schematic shown here in the Readme does not describe any cir
 
 See images of a [working breadboard prototype](images/Breadboard_working.png) and the [subsequent soldered prototype using a D1 shield](images/Simple%20prototype%20using%20D1%20shield.jpg).  Both of these prototypes are using 2n7000 MOSFETs exclusively, but that is because they are prototypes and long term reliability of data transmission when using the 2n7000 has not been confirmed.  See the section below on needed components for context.
 
-## Components needed
-This schematic assumes the use of through-hole components.  If you wish to use SMD components, please refer to the [FAQ](FAQ.md#what-if-i-want-to-use-sot-23-smd-components).
+## Components needed for basic functionality
+The basic schematic shown above assumes the use of through-hole components.  If you wish to use SMD components, please refer to the [FAQ](FAQ.md#what-if-i-want-to-use-sot-23-smd-components), and you can also check out the community-provided schematics, which include SMD-based designs.
 
-Aside from the obvious requirement of a [supported ESP-32 or ESP8266 board](Supported%20Boards.md) flashed with the [ESPHome version](https://github.com/ratgdo/esphome-ratgdo), you will need 3x 10 kohm (kilo-ohm) resistors, and two 2n7000 N-channel MOSFET (TO-92 package is easiest).  It is also recommended you aquire a suitable 3-post screw terminal and some red, white, and black wire for connecting to the door opener.  These connections are very low current, so you can get away with fairly thin wire.
+For this basic design, aside from the obvious requirement of a [supported ESP-32 or ESP8266 board](Supported%20Boards.md) flashed with the [ESPHome version](https://github.com/ratgdo/esphome-ratgdo), you will need 3x 10 kohm (kilo-ohm) resistors, and two 2n7000 N-channel MOSFET (TO-92 package is easiest).  It is also recommended you aquire a suitable 3-post screw terminal and some red, white, and black wire for connecting to the door opener.  These connections are very low current, so you can get away with fairly thin wire.
 
 **Note:** Our simple through-hole Bill Of Materials uses 2n7000 MOSFETs for both RX and TX, however depending on the manufacturere of your 2n7000 and its production batch, it might not be 100% reliable for the TX circuit.  There are many examples working using the 2n7000 however, so there is a very high chance it will work.
 
 
 ## INSTALL REQUIREMENTS
-Due the schematics we have provided and how they are laid out, you must use the ESPHome fork of ratgdo and - for ESP8266 based boards - select the blue v2.5 board on the ESPhome [web installer page](https://ratgdo.github.io/esphome-ratgdo/).  For ESP-32 based boards the above does not currently apply and you must use the v2.0 installer and follow our ESP-32 schematic we provide in the Supported Boards page.
+For both this basic schematic shown here in the Readme and how they it is laid out, you must use the ESPHome fork of ratgdo and - for ESP8266 based boards - select the blue v2.5 board on the ESPhome [web installer page](https://ratgdo.github.io/esphome-ratgdo/).  For ESP-32 based boards the above does not currently apply and you must use the v2.0 installer and follow our basic ESP-32 schematic we provide in the Supported Boards page.
 
 For the ESP8266 based boards, if installing using Paul Wieland's native ratgdo installer and you install for a v2.0 board, you must wire your TX to D4 (GPIO2) rather than D1 (GPIO5).
 
@@ -50,7 +50,7 @@ _An example of a PCB using a bare ESP8266 and LM2596 module_
 
 
 ### Schematic options
-We provide a few options of schematic files suitable for sending to a PCB printing company.  Currently provided are:
+The community has provided a few options of schematic files suitable for sending to a PCB printing company.
 - [Wemos D1 Mini ESP8266](kicad_files/D1%20Mini%20-%20ESP8266)
 - [Wemos D1 Mini ESP32](kicad_files/D1%20Mini%20-%20ESP32) (massive overkill for ratgdo but it's your choice!)
 - [Wemos D1 Mini ESP32 Wide Format](kicad_files/D1%20Mini%20Wide%20-%20ESP32)
