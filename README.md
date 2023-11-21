@@ -44,6 +44,9 @@ You may use the files from the [schematics folder](kicad_files) to have your own
 ![3D render of printed PCB](images/3D%20render%20of%20schematic.png)
 _An example of the D1 Mini ESP32 Wide Format_
 
+Example of a printed PCB with a raw ESP8266 and an LM2596 module, for being powered by a GDO with the battery backup capabilities.
+
+
 ### Schematic options
 We provide a few options of schematic files suitable for sending to a PCB printing company.  Currently provided are:
 - [Wemos D1 Mini ESP8266](kicad_files/D1%20Mini%20-%20ESP8266)
