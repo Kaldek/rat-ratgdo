@@ -44,7 +44,9 @@ You may use the files from the [schematics folder](kicad_files) to have your own
 ![3D render of printed PCB](images/3D%20render%20of%20schematic.png)
 _An example of the D1 Mini ESP32 Wide Format_
 
-Example of a printed PCB with a raw ESP8266 and an LM2596 module, for being powered by a GDO with the battery backup capabilities.
+Here is an example of a printed PCB with a raw ESP8266 and an LM2596 module, for being powered by a GDO with the battery backup capabilities.
+[Printed PCB using ESP8266 and LM2596](https://github.com/Kaldek/rat-ratgdo/blob/main/images/Printed%20PCB%20with%20ESP8266%20and%20LM2596.jpg)
+_An example of a PCB using a bare ESP8266 and LM2596 module_
 
 
 ### Schematic options
