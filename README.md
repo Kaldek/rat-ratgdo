@@ -22,6 +22,7 @@ The ***basic*** PCB schematic shown here in the Readme does not describe any cir
 **If you want to buy a pre-made ratgdo setup, purchase it [from Paul Wieland](https://github.com/PaulWieland/ratgdo).**
 
 ![PCB Link](schematics/ratgdo%20open%20source_schem_v9.png)
+_Simple basic schematic for a Wemos D1 Mini based module_
 
 See images of a [working breadboard prototype](images/Breadboard_working.png) and the [subsequent soldered prototype using a D1 shield](images/Simple%20prototype%20using%20D1%20shield.jpg).  Both of these prototypes are using 2n7000 MOSFETs exclusively, but that is because they are prototypes and long term reliability of data transmission when using the 2n7000 has not been confirmed.  See the section below on needed components for context.
 
