@@ -17,7 +17,7 @@ This project was created to allow people who need a ratgdo solution for their ga
 ### You are expected to know how to create the described circuit using your own prototyping skills.  That is, this project is for people who can solder well and know how to read schematics
 
 
-The PCB schematic here does not describe any circuitry other than the serial line garage door control and obstruction sensor.  All other optional features provided by ratgdo could also be reverse engineered as needed.
+The ***basic*** PCB schematic shown here in the Readme does not describe any circuitry other than the serial line garage door control and obstruction sensor.  All other optional features provided by ratgdo can be reverse engineered as needed, or may already be solved by one of the schematics the community has uploaded!
 
 **If you want to buy a pre-made ratgdo setup, purchase it [from Paul Wieland](https://github.com/PaulWieland/ratgdo).**
 
