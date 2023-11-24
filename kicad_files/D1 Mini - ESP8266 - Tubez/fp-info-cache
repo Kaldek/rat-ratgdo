@@ -1,0 +1,36 @@
+8502079330990
+Custom Library
+Converter_DCDC_RECOM_R-78HB-0.5_THT_JLC_small
+DCDC-Converter, RECOM, RECOM_R-78HB-0.5, SIP-3, pitch 2.54mm, package size 11.5x8.5x17.5mm^3, https://www.recom-power.com/pdf/Innoline/R-78HBxx-0.5_L.pdf
+dc-dc recom buck sip-3 pitch 2.54mm
+0
+3
+3
+Custom Library
+PinHeader_1x11_P2.54mm_Vertical_ExtendedPads
+Through hole straight pin header, 1x11, 2.54mm pitch, single row
+Through hole pin header THT 1x11 2.54mm single row
+0
+11
+11
+Custom Library
+SolderJumper-3_P1.3mm_Bridged2Bar12_RoundedPad1.0x1.5mm_voltjump
+SMD Solder 3-pad Jumper, 1x1.5mm rounded Pads, 0.3mm gap, pads 1-2 Bridged2Bar with 2 copper strip
+net tie solder jumper bridged
+0
+3
+3
+Custom Library
+ToolingHole_1.152mm
+Mounting Hole 2.1mm, no annular
+mounting hole 2.1mm no annular
+0
+0
+0
+Custom Library
+Tubez_LOGO
+
+
+0
+0
+0
