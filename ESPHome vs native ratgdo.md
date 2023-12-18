@@ -17,7 +17,7 @@ The ESPHome fork of ratgdo allows you to edit configuration settings for the rat
 Note that this requires installation of the ESPHome Add-On to Home Assistant.
 
 ## ESPHome Automatic Discovery
-Any devices on the network using ESPHome will advertise their presence on the local network.  This **includes** using Multicast DNS (MDNS) which means that if you have a suitable MDNS forwarder (such as the [avahi deaemon](https://www.avahi.org/)https://www.avahi.org/) and your ratgdo is on a separate IP subnet, it will still be detected by Home Assistant.  Handy for those of us who segment our "IoT" networks.
+Any devices on the network using ESPHome will advertise their presence on the local network.  This **includes** using Multicast DNS (MDNS) which means that if you have a suitable MDNS forwarder (such as the [avahi deaemon](https://www.avahi.org/) at https://www.avahi.org/) and your ratgdo is on a separate IP subnet, it will still be detected by Home Assistant.  Handy for those of us who segment our "IoT" networks.
 
 ESPHome Automatic Discovery and registration into Home Assistant does not require the ESPHome Add-On.  The Add-On is required for advanced functions like the customised YAML files as mentioned above.
 
