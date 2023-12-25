@@ -5,6 +5,7 @@ The benefits of using ESPHome are:
 - Web interface provides better out of the box diagnostic and logging
 - Pins used for ratgdo functions can be altered without coding expertise
 - ESPHome automatic discovery
+- Easy support for 4MB Flash ESP8266 modules, allowing for OTA updates via ESPHome Add-On in HA
 
 ## Web interface benefits
 The ESPHome web interface provides full details on a single web page of all current states of the ratgdo data in real time.  It also provides a realtime console log and, if you access the web page early enought in the boot cycle of the ESP8266, you can see the hardware settings that have been applied.
@@ -22,3 +23,17 @@ Any devices on the network using ESPHome will advertise their presence on the lo
 ESPHome Automatic Discovery and registration into Home Assistant does not require the ESPHome Add-On.  The Add-On is required for advanced functions like the customised YAML files as mentioned above.
 
 Automatic regestration also correctly registers the ratgdo in Home Assistant as a garage door without any further work.
+
+## ESPHome OTA support for 4MB flash modules
+esphome-ratgdo does not list any 4MB-flash ESP8266 modules in the repo.  As a result, selecting an ESP8266 based board will result in ESPHome assuming your device has 1MB Flash even if it has 4MB (e.g., Wemos D1 Mini has 4MB Flash whereas the Wemos D1 Mini Lite only has 1MB).
+
+When ESPHome has a version update, it is not possible to perform an OTA update via the ESPHome dashboard if it thinks your module only has 1MB of Flash.  Ergo, if your module has 4MB flash you must define this in your YAML file.
+
+To do this, ensure your YAML file has the following lines added (preferably near the top of the file):
+```yaml
+esp8266:
+  board: d1_mini
+```
+
+### Initial re-flash after updating YAML
+After making the change, you will initially need to re-flash your module either using USB or via stripping out all of the ratgdo references from the YAML so that the OTA file fits in the remaining spare flash spave.  This is because that the change to your YAML only effectively applies after one successful installation of the YAML with the reference to the d1_mini.
