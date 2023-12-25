@@ -35,7 +35,10 @@ esp8266:
   board: d1_mini
 ```
 
+### Why does this work?
+Even though the YAML files pulled from the esphome-ratgdo repo have a direct reference to the "d1_mini_lite" in their configuration, adding reference to the "d1_mini" in your YAML **overrides** the settings from the esphome-ratgdo repo.
+
 ### Initial re-flash after updating YAML
 After making the change, you will initially need to re-flash your module either using USB or via stripping out all of the ratgdo references from the YAML so that the OTA file fits in the remaining spare flash space.  This is because that the change to your YAML only effectively applies after one successful installation of the YAML with the reference to the d1_mini.
 
-Even though the YAML files pulled from the esphome-ratgdo repo have a direct reference to the "d1_mini_lite" in their configuration, adding reference to the "d1_mini" in your YAML **overrides** the settings from the esphome-ratgdo repo.
+
