@@ -29,7 +29,7 @@ esphome-ratgdo does not list any 4MB-flash ESP8266 modules in the repo.  As a re
 
 When ESPHome has a version update, it is not possible to perform an OTA update via the ESPHome dashboard if it thinks your module only has 1MB of Flash.  Ergo, if your module has 4MB flash you must define this in your YAML file.
 
-To do this, ensure your YAML file has the following lines added (preferably near the top of the file):
+To do this, ensure your YAML file has the following lines added (preferably near the top of the file for good syntax consistency or "for the next guy"):
 ```yaml
 esp8266:
   board: d1_mini
