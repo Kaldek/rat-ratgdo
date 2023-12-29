@@ -41,4 +41,25 @@ Even though the YAML files pulled from the esphome-ratgdo repo have a direct ref
 ### Initial re-flash after updating YAML
 After making the change, you will initially need to re-flash your module either using USB or via stripping out all of the ratgdo references from the YAML so that the OTA file fits in the remaining spare flash space.  This is because that the change to your YAML only effectively applies after one successful installation of the YAML with the reference to the d1_mini.
 
+## ESPHome OTA support for 2MB flash modules
+Currently the esphome-ratgdo repository does not support configurations for ESP8266 modules with 2MB flash (such as the Tuya TYWE3L and TYWE3S), as the list of modules supported in their provided YAML files reference the "D" pin numbering of Wemos modules.
 
+We have forked the esphome-ratgdo repository, and provide unofficial support for 2MB modules via the following YAML:
+
+```yaml
+substitutions:
+  name: ratgdov25-2MB
+  friendly_name: RAT-RATGDO-2MB
+  id_prefix: ratratgdov25
+
+packages:
+  ratratgdo.esphome:
+    url: https://github.com/Kaldek/esphome-ratgdo
+    ref: main
+    file: rat-ratgdo-2MB.yaml
+
+esphome:
+  name: ${name}
+  name_add_mac_suffix: false
+  friendly_name: ${friendly_name}
+```
