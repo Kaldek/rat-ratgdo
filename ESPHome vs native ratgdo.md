@@ -33,7 +33,7 @@ ESPHome added support for modules with 4MB flash via support for the 2.5i versio
 If you are re-flashging an existing deployment of ESPHome-ratgdo for your module with 4MB flash, you will initially need to re-flash your module either using USB or via stripping out all of the ratgdo references from the YAML so that the OTA file fits in the remaining spare flash space.  This is because that the change to your YAML only effectively applies after one successful installation of the YAML with the reference to the d1_mini.
 
 ## ESPHome OTA support for 2MB flash modules
-Currently the esphome-ratgdo repository does not support configurations for ESP8266 modules with 2MB flash (such as the Tuya TYWE3L and TYWE3S), as the list of modules supported in their provided YAML files reference the "D" pin numbering of Wemos modules.
+Currently the esphome-ratgdo repository does not directly support configurations for ESP8266 modules with 2MB flash (such as the Tuya TYWE3L and TYWE3S), as the list of modules supported in their provided YAML files reference the "D" pin numbering of Wemos modules.  These modules will work with any configurations for modules with 1MB flash though.
 
 We have forked the esphome-ratgdo repository, and provide unofficial support for 2MB modules via the following device YAML you can use in the ESPHome Dashboard:
 
