@@ -25,21 +25,12 @@ ESPHome Automatic Discovery and registration into Home Assistant does not requir
 Automatic regestration also correctly registers the ratgdo in Home Assistant as a garage door without any further work.
 
 ## ESPHome OTA support for 4MB flash modules
-esphome-ratgdo does not list any 4MB-flash ESP8266 modules in the repo.  As a result, selecting an ESP8266 based board will result in ESPHome assuming your device has 1MB Flash even if it has 4MB (e.g., Wemos D1 Mini has 4MB Flash whereas the Wemos D1 Mini Lite only has 1MB).
+The default guidance is to use the ESPHome ratgdo YAML files for the Wemos D1 Mini Lite.  As a result, ESPHome will assume your device has 1MB Flash even if it has 4MB (e.g., Wemos D1 Mini has 4MB Flash whereas the Wemos D1 Mini Lite only has 1MB).
 
-When ESPHome has a version update, it is not possible to perform an OTA update via the ESPHome dashboard if it thinks your module only has 1MB of Flash.  Ergo, if your module has 4MB flash you must define this in your YAML file.
-
-To do this, ensure your YAML file has the following lines added (preferably near the top of the file for good syntax consistency or "for the next guy"):
-```yaml
-esp8266:
-  board: d1_mini
-```
-
-### Why does this work?
-Even though the YAML files pulled from the esphome-ratgdo repo have a direct reference to the "d1_mini_lite" in their configuration, adding reference to the "d1_mini" in your YAML **overrides** the settings from the esphome-ratgdo repo.
+ESPHome added support for modules with 4MB flash via support for the 2.5i version of Paul Wieland's ratgdo product, which includes an ESP-12F module that has 4MB flash.  If your module has 4MB flash, just select the v2.5i board when installing ESPHome.
 
 ### Initial re-flash after updating YAML
-After making the change, you will initially need to re-flash your module either using USB or via stripping out all of the ratgdo references from the YAML so that the OTA file fits in the remaining spare flash space.  This is because that the change to your YAML only effectively applies after one successful installation of the YAML with the reference to the d1_mini.
+If you are re-flashging an existing deployment of ESPHome-ratgdo for your module with 4MB flash, you will initially need to re-flash your module either using USB or via stripping out all of the ratgdo references from the YAML so that the OTA file fits in the remaining spare flash space.  This is because that the change to your YAML only effectively applies after one successful installation of the YAML with the reference to the d1_mini.
 
 ## ESPHome OTA support for 2MB flash modules
 Currently the esphome-ratgdo repository does not support configurations for ESP8266 modules with 2MB flash (such as the Tuya TYWE3L and TYWE3S), as the list of modules supported in their provided YAML files reference the "D" pin numbering of Wemos modules.
