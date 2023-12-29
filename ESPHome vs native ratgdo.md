@@ -44,7 +44,7 @@ After making the change, you will initially need to re-flash your module either 
 ## ESPHome OTA support for 2MB flash modules
 Currently the esphome-ratgdo repository does not support configurations for ESP8266 modules with 2MB flash (such as the Tuya TYWE3L and TYWE3S), as the list of modules supported in their provided YAML files reference the "D" pin numbering of Wemos modules.
 
-We have forked the esphome-ratgdo repository, and provide unofficial support for 2MB modules via the following YAML:
+We have forked the esphome-ratgdo repository, and provide unofficial support for 2MB modules via the following device YAML you can use in the ESPHome Dashboard:
 
 ```yaml
 substitutions:
