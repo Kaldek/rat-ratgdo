@@ -78,3 +78,6 @@ In operation, this means that the ratgdo is mostly listening to the serial bus t
 ### Obstruction sensor
 The ratgdo monitors the real-time state of the obstruction sensors directly.  We assume this is because obstruction status is not broadcast in real time by the door controller, and safety is paramount.  It allows you to set up real-time alerts in Home Assistant for any time the door is obstructed.  The ratgdo taps into the obstruction sensor power wire which also acts as a communication bus, however the signalling is only an ongoing status of whether the obstruction sensors are working and whether there is an obstruction.
 
+
+## Contributing
+This is a fully open repo, in that we welcome any and all additions for all sorts of Edge Cases.  If you come up with something and would like it to be available to the community, raise a Pull Request and we'll work with you to get it published!
