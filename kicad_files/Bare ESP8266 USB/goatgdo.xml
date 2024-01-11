@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/growlph/KiCad/RatGDO Garage Controller/goatgdo.kicad_sch</source>
+    <date>Sun 31 Dec 2023 01:49:17 PM PST</date>
+    <tool>Eeschema 7.0.9</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>goatgdo.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C2">
+      <value>C-USC0805</value>
+      <footprint>8266_a1_bridge_v1:C0805</footprint>
+      <libsource lib="8266_a1_bridge_v1-eagle-import" part="C-USC0805" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="goatgdo.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>54e2816e-4784-4386-8474-b55b6adf460b</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>10uF</value>
+      <footprint>8266_a1_bridge_v1:C0805</footprint>
+      <libsource lib="8266_a1_bridge_v1-eagle-import" part="C-USC0805" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="goatgdo.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d1e90631-d540-42ca-bae4-93335651cc9a</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>100nF</value>
+      <footprint>8266_a1_bridge_v1:C0805</footprint>
+      <libsource lib="8266_a1_bridge_v1-eagle-import" part="C-USC0805" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="goatgdo.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>07a35708-df3b-4e94-9cf2-e9afba80cf39</tstamps>
+    </comp>
+    <comp ref="CR1">
+      <value>LD1117ADT33TR</value>
+      <footprint>8266_a1_bridge_v1:DPAK_STM</footprint>
+      <libsource lib="8266_a1_bridge_v1-eagle-import" part="LD1117ADT33TR" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="goatgdo.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>13a12fde-c822-4407-9d88-5f188b852644</tstamps>
+    </comp>
+    <comp ref="IC3">
+      <value>ESP-12E/F</value>
+      <footprint>8266_a1_bridge_v1:ESP-12E</footprint>
+      <libsource lib="8266_a1_bridge_v1-eagle-import" part="ESP-12E/F" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="goatgdo.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>43c3205c-1d5c-4e6a-90f5-7b6f3379ad82</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>KUSBX-SMT-CS-6-BTR</value>
+      <footprint>8266_a1_bridge_v1:KUSBX-SMT-CS-6-BTR_KYC</footprint>
+      <libsource lib="8266_a1_bridge_v1-eagle-import" part="KUSBX-SMT-CS-6-BTR" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="goatgdo.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8a4c35d7-a867-4a94-8915-b94185583afb</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Screw_Terminal_01x03</value>
+      <footprint>TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type011_RT05503HBWC_1x03_P5.00mm_Horizontal</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x03" description="Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="goatgdo.kicad_sch"/>
+      <property name="ki_description" value="Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="screw terminal"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>613ef871-4161-4841-a0aa-ad963abfb087</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>ICSP</value>
+      <footprint>8266_a1_bridge_v1:1X05</footprint>
+      <libsource lib="8266_a1_bridge_v1-eagle-import" part="PINHD-1X5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="goatgdo.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b715e1db-07dd-4849-8795-7d3dc55172c3</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23_Handsoldering</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</datasheet>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="goatgdo.kicad_sch"/>
+      <property name="ki_description" value="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="ki_keywords" value="N-Channel Switching MOSFET"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bb051888-b23c-4af8-b1cd-7197c7bf0c2d</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>AO3400A</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23_Handsoldering</footprint>
+      <datasheet>http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="AO3400A" description="30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="goatgdo.kicad_sch"/>
+      <property name="ki_description" value="30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"/>
+      <property name="ki_keywords" value="N-Channel MOSFET"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>78c24a27-6b92-4b0f-9871-50c76cb37836</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>8266_a1_bridge_v1:R0805</footprint>
+      <libsource lib="8266_a1_bridge_v1-eagle-import" part="R-US_R0805" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="goatgdo.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4beec4b9-8578-49fc-994e-35c4e0093a88</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>5.1k</value>
+      <footprint>8266_a1_bridge_v1:R0805</footprint>
+      <libsource lib="8266_a1_bridge_v1-eagle-import" part="R-US_R0805" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="goatgdo.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2a5ba65a-dea6-4f06-9b8c-0a26e10ae6ec</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>5.1k</value>
+      <footprint>8266_a1_bridge_v1:R0805</footprint>
+      <libsource lib="8266_a1_bridge_v1-eagle-import" part="R-US_R0805" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="goatgdo.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fd661248-2d08-4f10-826a-5d151558893f</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>10k</value>
+      <footprint>8266_a1_bridge_v1:R0805</footprint>
+      <libsource lib="8266_a1_bridge_v1-eagle-import" part="R-US_R0805" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="goatgdo.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c9f16056-b63c-4006-a310-d6b399ed84a6</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>10k</value>
+      <footprint>8266_a1_bridge_v1:R0805</footprint>
+      <libsource lib="8266_a1_bridge_v1-eagle-import" part="R-US_R0805" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="goatgdo.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e33f05e3-56ec-4ca1-9581-512d15ab3cd9</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>10k</value>
+      <footprint>8266_a1_bridge_v1:R0805</footprint>
+      <libsource lib="8266_a1_bridge_v1-eagle-import" part="R-US_R0805" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="goatgdo.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>85b8e152-45aa-42d6-b69e-31d90cf23812</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>10k</value>
+      <footprint>8266_a1_bridge_v1:R0805</footprint>
+      <libsource lib="8266_a1_bridge_v1-eagle-import" part="R-US_R0805" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="goatgdo.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7724e6af-1f75-4234-9d5a-4466579001de</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>10k</value>
+      <footprint>8266_a1_bridge_v1:R0805</footprint>
+      <libsource lib="8266_a1_bridge_v1-eagle-import" part="R-US_R0805" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="goatgdo.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d231b329-8bc3-4f42-a636-952d8b9868b7</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>10k</value>
+      <footprint>8266_a1_bridge_v1:R0805</footprint>
+      <libsource lib="8266_a1_bridge_v1-eagle-import" part="R-US_R0805" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="goatgdo.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f688c169-8529-4215-a5ad-c50da63620a1</tstamps>
+    </comp>
+    <comp ref="S1">
+      <value>RST</value>
+      <footprint>8266_a1_bridge_v1:TACTILE_SWITCH_PTH_6.0MM</footprint>
+      <libsource lib="8266_a1_bridge_v1-eagle-import" part="MOMENTARY-SWITCH-SPST-PTH-6.0MM" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="goatgdo.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>46351d14-1a49-4395-b5d7-89bf862683a1</tstamps>
+    </comp>
+    <comp ref="S2">
+      <value>FLASH</value>
+      <footprint>8266_a1_bridge_v1:TACTILE_SWITCH_PTH_6.0MM</footprint>
+      <libsource lib="8266_a1_bridge_v1-eagle-import" part="MOMENTARY-SWITCH-SPST-PTH-6.0MM" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="goatgdo.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1dc0e1eb-c4a4-4a70-9876-f9a7f555448d</tstamps>
+    </comp>
+    <comp ref="U$4">
+      <value>M2-POST</value>
+      <footprint>8266_a1_bridge_v1:M2-POST</footprint>
+      <libsource lib="8266_a1_bridge_v1-eagle-import" part="M2-POST" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="goatgdo.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c70f81a4-3aa9-47fe-8ead-304a76b71e37</tstamps>
+    </comp>
+    <comp ref="U$6">
+      <value>M2-POST</value>
+      <footprint>8266_a1_bridge_v1:M2-POST</footprint>
+      <libsource lib="8266_a1_bridge_v1-eagle-import" part="M2-POST" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="goatgdo.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>82d229a3-4267-41d5-bbda-ac3eab66afa4</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="8266_a1_bridge_v1-eagle-import" part="C-USC0805">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C-USC0805</field>
+        <field name="Footprint">8266_a1_bridge_v1:C0805</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="8266_a1_bridge_v1-eagle-import" part="ESP-12E/F">
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">ESP-12E{slash}F</field>
+        <field name="Footprint">8266_a1_bridge_v1:ESP-12E</field>
+      </fields>
+      <pins>
+        <pin num="ADC" name="ADC" type="bidirectional"/>
+        <pin num="CS0" name="CS0" type="bidirectional"/>
+        <pin num="EN" name="EN" type="bidirectional"/>
+        <pin num="GND" name="GND" type="power_in"/>
+        <pin num="IO0" name="IO0" type="bidirectional"/>
+        <pin num="IO2" name="IO2" type="bidirectional"/>
+        <pin num="IO4" name="IO4" type="bidirectional"/>
+        <pin num="IO5" name="IO5" type="bidirectional"/>
+        <pin num="IO9" name="IO9" type="bidirectional"/>
+        <pin num="IO10" name="IO10" type="bidirectional"/>
+        <pin num="IO12" name="IO12" type="bidirectional"/>
+        <pin num="IO13" name="IO13" type="bidirectional"/>
+        <pin num="IO14" name="IO14" type="bidirectional"/>
+        <pin num="IO15" name="IO15" type="bidirectional"/>
+        <pin num="IO16" name="IO16" type="bidirectional"/>
+        <pin num="MISO" name="MISO" type="bidirectional"/>
+        <pin num="MOSI" name="MOSI" type="bidirectional"/>
+        <pin num="RST" name="RST" type="input"/>
+        <pin num="RXD/IO3" name="RXD/IO3" type="bidirectional"/>
+        <pin num="SCLK" name="SCLK" type="bidirectional"/>
+        <pin num="TXD/IO1" name="TXD/IO1" type="bidirectional"/>
+        <pin num="VCC" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="8266_a1_bridge_v1-eagle-import" part="KUSBX-SMT-CS-6-BTR">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">KUSBX-SMT-CS-6-BTR</field>
+        <field name="Footprint">8266_a1_bridge_v1:KUSBX-SMT-CS-6-BTR_KYC</field>
+      </fields>
+      <pins>
+        <pin num="A5" name="CC1" type="bidirectional"/>
+        <pin num="A9" name="VBUS_2" type="power_in"/>
+        <pin num="A12" name="GND_2" type="passive"/>
+        <pin num="B5" name="CC2" type="bidirectional"/>
+        <pin num="B9" name="VBUS" type="power_in"/>
+        <pin num="B12" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="8266_a1_bridge_v1-eagle-import" part="LD1117ADT33TR">
+      <fields>
+        <field name="Reference">CR</field>
+        <field name="Value">LD1117ADT33TR</field>
+        <field name="Footprint">8266_a1_bridge_v1:DPAK_STM</field>
+      </fields>
+      <pins>
+        <pin num="1" name="ADJ/GND" type="passive"/>
+        <pin num="2" name="INPUT" type="input"/>
+        <pin num="3" name="OUTPUT" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="8266_a1_bridge_v1-eagle-import" part="M2-POST">
+      <fields>
+        <field name="Value">M2-POST</field>
+        <field name="Footprint">8266_a1_bridge_v1:M2-POST</field>
+      </fields>
+    </libpart>
+    <libpart lib="8266_a1_bridge_v1-eagle-import" part="MOMENTARY-SWITCH-SPST-PTH-6.0MM">
+      <fields>
+        <field name="Reference">S</field>
+        <field name="Value">MOMENTARY-SWITCH-SPST-PTH-6.0MM</field>
+        <field name="Footprint">8266_a1_bridge_v1:TACTILE_SWITCH_PTH_6.0MM</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="3" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="8266_a1_bridge_v1-eagle-import" part="PINHD-1X5">
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">PINHD-1X5</field>
+        <field name="Footprint">8266_a1_bridge_v1:1X05</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="8266_a1_bridge_v1-eagle-import" part="R-US_R0805">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R-US_R0805</field>
+        <field name="Footprint">8266_a1_bridge_v1:R0805</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Screw_Terminal_01x03">
+      <description>Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x03</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="2N7002">
+      <description>0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23</description>
+      <docs>https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">2N7002</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="AO3400A">
+      <description>30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23</description>
+      <docs>http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">AO3400A</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="8266_a1_bridge_v1-eagle-import">
+      <uri>/home/growlph/KiCad/RatGDO Garage Controller/8266_a1_bridge_v1-eagle-import.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>/app/extensions/Library/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>/app/extensions/Library/symbols//Transistor_FET.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/ICSP_RX">
+      <node ref="IC3" pin="RXD/IO3" pinfunction="RXD/IO3" pintype="bidirectional"/>
+      <node ref="J4" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="2" name="/ICSP_TX">
+      <node ref="IC3" pin="TXD/IO1" pinfunction="TXD/IO1" pintype="bidirectional"/>
+      <node ref="J4" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="3" name="/IO0_FLASH">
+      <node ref="IC3" pin="IO0" pinfunction="IO0" pintype="bidirectional"/>
+      <node ref="R7" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="S2" pin="3" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="4" name="3.3V">
+      <node ref="C3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="CR1" pin="3" pinfunction="OUTPUT" pintype="output"/>
+      <node ref="IC3" pin="VCC" pinfunction="VCC" pintype="power_in"/>
+      <node ref="J4" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="R4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R7" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="5" name="5V">
+      <node ref="C2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="CR1" pin="2" pinfunction="INPUT" pintype="input"/>
+      <node ref="J1" pin="A9" pinfunction="VBUS_2" pintype="power_in"/>
+      <node ref="J1" pin="B9" pinfunction="VBUS" pintype="power_in"/>
+    </net>
+    <net code="6" name="GND">
+      <node ref="C2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="CR1" pin="1" pinfunction="ADJ/GND" pintype="passive"/>
+      <node ref="IC3" pin="GND" pinfunction="GND" pintype="power_in"/>
+      <node ref="J1" pin="A12" pinfunction="GND_2" pintype="passive"/>
+      <node ref="J1" pin="B12" pinfunction="GND" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J4" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q2" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="R2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R6" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R8" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R9" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="S1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="S2" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="7" name="Net-(IC3-PadEN)">
+      <node ref="IC3" pin="EN" pinfunction="EN" pintype="bidirectional"/>
+      <node ref="R5" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(IC3-PadIO13)">
+      <node ref="IC3" pin="IO13" pinfunction="IO13" pintype="bidirectional"/>
+      <node ref="R1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R8" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(IC3-PadIO15)">
+      <node ref="IC3" pin="IO15" pinfunction="IO15" pintype="bidirectional"/>
+      <node ref="R6" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(J1-CC1)">
+      <node ref="J1" pin="A5" pinfunction="CC1" pintype="bidirectional"/>
+      <node ref="R3" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(J1-CC2)">
+      <node ref="J1" pin="B5" pinfunction="CC2" pintype="bidirectional"/>
+      <node ref="R2" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="12" name="Net-(J2-Pin_1)">
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(J2-Pin_2)">
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Q1" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="Q2" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(Q1-D)">
+      <node ref="IC3" pin="IO4" pinfunction="IO4" pintype="bidirectional"/>
+      <node ref="Q1" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(Q2-G)">
+      <node ref="IC3" pin="IO5" pinfunction="IO5" pintype="bidirectional"/>
+      <node ref="Q2" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R9" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(S1-2)">
+      <node ref="IC3" pin="RST" pinfunction="RST" pintype="input"/>
+      <node ref="R4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="S1" pin="3" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="17" name="unconnected-(IC3-PadADC)">
+      <node ref="IC3" pin="ADC" pinfunction="ADC" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="unconnected-(IC3-PadCS0)">
+      <node ref="IC3" pin="CS0" pinfunction="CS0" pintype="bidirectional"/>
+    </net>
+    <net code="19" name="unconnected-(IC3-PadIO2)">
+      <node ref="IC3" pin="IO2" pinfunction="IO2" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="unconnected-(IC3-PadIO9)">
+      <node ref="IC3" pin="IO9" pinfunction="IO9" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="unconnected-(IC3-PadIO10)">
+      <node ref="IC3" pin="IO10" pinfunction="IO10" pintype="bidirectional"/>
+    </net>
+    <net code="22" name="unconnected-(IC3-PadIO12)">
+      <node ref="IC3" pin="IO12" pinfunction="IO12" pintype="bidirectional"/>
+    </net>
+    <net code="23" name="unconnected-(IC3-PadIO14)">
+      <node ref="IC3" pin="IO14" pinfunction="IO14" pintype="bidirectional"/>
+    </net>
+    <net code="24" name="unconnected-(IC3-PadIO16)">
+      <node ref="IC3" pin="IO16" pinfunction="IO16" pintype="bidirectional"/>
+    </net>
+    <net code="25" name="unconnected-(IC3-PadMISO)">
+      <node ref="IC3" pin="MISO" pinfunction="MISO" pintype="bidirectional"/>
+    </net>
+    <net code="26" name="unconnected-(IC3-PadMOSI)">
+      <node ref="IC3" pin="MOSI" pinfunction="MOSI" pintype="bidirectional"/>
+    </net>
+    <net code="27" name="unconnected-(IC3-PadSCLK)">
+      <node ref="IC3" pin="SCLK" pinfunction="SCLK" pintype="bidirectional"/>
+    </net>
+    <net code="28" name="unconnected-(J4-Pad4)">
+      <node ref="J4" pin="4" pinfunction="4" pintype="passive"/>
+    </net>
+  </nets>
+</export>
