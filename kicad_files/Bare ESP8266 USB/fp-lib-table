@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "8266_a1_bridge_v1")(type "KiCad")(uri "")(options "")(descr ""))
+)
