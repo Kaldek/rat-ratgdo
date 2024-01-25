@@ -9,17 +9,13 @@ RATGDO
 Credit and inspiration for this work goes to [@rlowens](https://github.com/rlowens) to let me know that there are other technical folks out there who needed this other than myself.
 
 ## Overview
-This is an open source schematic for the ratgdo, based on the v2.5 [ratgdo](https://github.com/PaulWieland/ratgdo) PCB and code but installed using the [ESPHome fork](ESPHome%20vs%20native%20ratgdo.md) of ratgdo.  We feel there is cognitive dissonance between the refusal to provide (and deleting requests for) schematics for the ratgdo PCB against the ratgdo project's use of open source code, open source licensing, and libraries used by other open source projects, as well as the inception reasoning for the ratgdo project which was to ensure that nobody is at the mercy of a third party that might stop selling the PCBs.
-
-This project was created to allow people who need a ratgdo solution for their garage door opener but either cannot, or choose not to, source the solution from Paul Wieland. It also ensures that the PCB can be recreated as and when the project maintainer gives up on the project (much like Chamberlain themselves might do with their MyQ Cloud Service) and stops selling PCBs.
-
+This is an open source schematic for the ratgdo, based on the v2.5 [ratgdo](https://github.com/PaulWieland/ratgdo) PCB and code but installed using the [ESPHome fork](ESPHome%20vs%20native%20ratgdo.md) of ratgdo.  This project was created to allow people who need a ratgdo solution for their garage door opener but either cannot, or choose not to, source the solution from Paul Wieland. It also ensures that the PCB can be recreated as and when the project maintainer gives up on the project (much like Chamberlain themselves might do with their MyQ Cloud Service) and stops selling PCBs. 
 
 ### You are expected to know how to create the described circuit using your own prototyping skills.  That is, this project is for people who can solder well and know how to read schematics
 
-
 The ***basic*** PCB schematic shown here in the Readme does not describe any circuitry other than the serial line garage door control and obstruction sensor.  All other optional features provided by ratgdo can be reverse engineered as needed, or may already be solved by one of the schematics the community has uploaded!
 
-**If you want to buy a pre-made ratgdo setup, purchase it [from Paul Wieland](https://github.com/PaulWieland/ratgdo).**
+ As of January 2023, there are now multiple sources for commercially sold ratgdo boards.  **However if you want to buy a pre-made ratgdo setup, we recommend purchasing one [from Paul Wieland](https://github.com/PaulWieland/ratgdo) so as to reward the original creator.**
 
 ![PCB Link](schematics/ratgdo%20open%20source%20D1%20Mini_KiCad.png)
 _Simple basic schematic for a Wemos D1 Mini based module_
@@ -31,7 +27,7 @@ The basic schematic shown above assumes the use of through-hole components.  If 
 
 For this basic design, aside from the obvious requirement of a [supported ESP-32 or ESP8266 board](Supported%20Boards.md) flashed with the [ESPHome version](https://github.com/ratgdo/esphome-ratgdo), you will need 3x 10 kohm (kilo-ohm) resistors, and two 2n7000 N-channel MOSFET (TO-92 package is easiest), or one 2n7000 and one AO3400A soldered to a SOT23 to DIP adapter board.  It is also recommended you aquire a suitable 3-post screw terminal and some red, white, and black wire for connecting to the door opener.  These connections are very low current, so you can get away with fairly thin wire.
 
-**Note:** Our simple through-hole Bill Of Materials uses 2n7000 MOSFETs for both RX and TX, however depending on the manufacturere of your 2n7000 and its production batch, it might not be 100% reliable for the TX circuit.  There are many examples working using the 2n7000 however, so there is a very high chance it will work.
+**Note:** Our simple through-hole Bill Of Materials uses 2n7000 MOSFETs for both RX and TX, however depending on the manufacturere of your 2n7000 and its production batch, it might not be 100% reliable for the TX circuit.  There are many examples working using the 2n7000 however, so there is a very high chance it will work.  
 
 
 ## INSTALL REQUIREMENTS
