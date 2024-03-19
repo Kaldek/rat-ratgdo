@@ -3,17 +3,17 @@ name: Generate Gerber and PCB Files
 on:
   push:
     paths:
-    - '**.sch'
+    - '**.kicad_sch'
     - '**.kicad_pcb'
-    - '.github/**.yml' # Trigger on changes to the workflow file
-    - '**.kibot.yml' # Trigger on changes to the KiBot config file used in the workflow
+    - '.github/**.yaml' # Trigger on changes to the workflow file
+    - '**.kibot.yaml' # Trigger on changes to the KiBot config file used in the workflow
 
   pull_request:
     paths:
-      - '**.sch'
+      - '**.kicad_sch'
       - '**.kicad_pcb'
-      - '.github/**.yml' # Trigger on changes to the workflow file
-      - '**.kibot.yml' # Trigger on changes to the KiBot config file used in the workflow
+      - '.github/**.yaml' # Trigger on changes to the workflow file
+      - '**.kibot.yaml' # Trigger on changes to the KiBot config file used in the workflow
 
   # To allow for manual triggering from the Action console, add workflow_dispatch
   workflow_dispatch:
@@ -38,7 +38,7 @@ jobs:
         schema: kicad_files/D1 Mini Wide - ESP32/RatGDO-OpenSource-D1Mini-ESP32.kicad_sch
         board: kicad_files/D1 Mini Wide - ESP32/RatGDO-OpenSource-D1Mini-ESP32.kicad_pcb
     - name: upload results
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: D1 Mini Wide - ESP32
         path: output
@@ -57,7 +57,7 @@ jobs:
         schema: kicad_files/D1 Mini - ESP32/RatGDO-OpenSource-D1Mini-ESP32.kicad_sch
         board: kicad_files/D1 Mini - ESP32/RatGDO-OpenSource-D1Mini-ESP32.kicad_pcb
     - name: upload results
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: D1 Mini - ESP32
         path: output
@@ -76,7 +76,7 @@ jobs:
         schema: kicad_files/D1 Mini - ESP8266/RatGDO-OpenSource-D1Mini-ESP8266.kicad_sch
         board: kicad_files/D1 Mini - ESP8266/RatGDO-OpenSource-D1Mini-ESP8266.kicad_pcb
     - name: upload results
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: D1 Mini - ESP8266
         path: output
@@ -95,7 +95,7 @@ jobs:
         schema: kicad_files/Bare ESP8266/RatGDO-OpenSource-Bare-ESP8266.kicad_sch
         board: kicad_files/Bare ESP8266/RatGDO-OpenSource-Bare-ESP8266.kicad_pcb
     - name: upload results
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: Bare ESP8266
         path: output
