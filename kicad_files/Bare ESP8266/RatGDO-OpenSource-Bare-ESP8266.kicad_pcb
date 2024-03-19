@@ -294,8 +294,8 @@
     (at 162.56 63.5)
     (descr "Mounting Hole 5mm, no annular")
     (tags "mounting hole 5mm no annular")
-    (attr exclude_from_pos_files exclude_from_bom)
-    (fp_text reference "REF**" (at 0 -6) (layer "F.SilkS") hide
+    (attr board_only exclude_from_pos_files exclude_from_bom)
+    (fp_text reference "H1" (at 0 -6) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 77777fd7-5011-4042-b744-c54a5e52b1a1)
     )
@@ -319,8 +319,8 @@
     (at 162.56 130.505)
     (descr "Mounting Hole 5mm, no annular")
     (tags "mounting hole 5mm no annular")
-    (attr exclude_from_pos_files exclude_from_bom)
-    (fp_text reference "REF**" (at 0 -6) (layer "F.SilkS") hide
+    (attr board_only exclude_from_pos_files exclude_from_bom)
+    (fp_text reference "H1" (at 0 -6) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 87366635-f0e0-4627-9363-eccd183e68a0)
     )
@@ -586,8 +586,8 @@
     (at 120.65 130.505)
     (descr "Mounting Hole 5mm, no annular")
     (tags "mounting hole 5mm no annular")
-    (attr exclude_from_pos_files exclude_from_bom)
-    (fp_text reference "REF**" (at 0 -6) (layer "F.SilkS") hide
+    (attr board_only exclude_from_pos_files exclude_from_bom)
+    (fp_text reference "H1" (at 0 -6) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 71d07c5f-064c-47d8-a7b6-97a180e6da84)
     )
@@ -665,8 +665,8 @@
     (at 120.65 63.5)
     (descr "Mounting Hole 5mm, no annular")
     (tags "mounting hole 5mm no annular")
-    (attr exclude_from_pos_files exclude_from_bom)
-    (fp_text reference "REF**" (at 0 -6) (layer "F.SilkS") hide
+    (attr board_only exclude_from_pos_files exclude_from_bom)
+    (fp_text reference "H1" (at 0 -6) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 378e5f7f-1212-4612-9dad-d61c19fae56d)
     )
