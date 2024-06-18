@@ -31,7 +31,7 @@ For this basic design, aside from the obvious requirement of a [supported ESP-32
 
 
 ## INSTALL REQUIREMENTS
-For both this basic schematic shown here in the Readme and how they it is laid out, you must use the ESPHome fork of ratgdo and - for ESP8266 based boards - select the blue v2.5 board on the ESPhome [web installer page](https://ratgdo.github.io/esphome-ratgdo/).  For ESP-32 based boards the above does not currently apply and you must use the v2.0 installer and follow our basic ESP-32 schematic we provide in the Supported Boards page.
+For both this basic schematic shown here in the Readme and how they it is laid out, you must use the ESPHome fork of ratgdo and - for ESP8266 based boards - select the "ratgdo v2.5x" image on the ESPhome [web installer page](https://ratgdo.github.io/esphome-ratgdo/).  For ESP32 based boards the above does not currently apply and you must use the v2.0 installer and follow our basic ESP-32 schematic we provide in the Supported Boards page.
 
 For the ESP8266 based boards, if installing using Paul Wieland's native ratgdo installer and you install for a v2.0 board, you must wire your TX to D4 (GPIO2) rather than D1 (GPIO5).
 
