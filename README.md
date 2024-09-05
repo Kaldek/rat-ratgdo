@@ -20,7 +20,7 @@ The ***basic*** PCB schematic shown here in the Readme does not describe any cir
 ![PCB Link](schematics/ratgdo%20open%20source%20D1%20Mini_KiCad.png)
 _Simple basic schematic for a Wemos D1 Mini based module_
 
-See images of a [working breadboard prototype](images/Breadboard_working.png) and the [subsequent soldered prototype using a D1 shield](images/Simple%20prototype%20using%20D1%20shield.jpg).  Both of these prototypes are using 2n7000 MOSFETs exclusively, but that is because they are prototypes and long term reliability of data transmission when using the 2n7000 has not been confirmed.  See the section below on needed components for context.
+See images of a [working breadboard prototype](images/Breadboard_working.png) and the [subsequent soldered prototype using a D1 shield](images/Simple%20prototype%20using%20D1%20shield.jpg).  Both of these prototypes are using 2n7000 MOSFETs exclusively, but that is because they are prototypes and whether a 2n7000 will work for TX will depend greatly on who manufactured your 2n7000.  See the section below on needed components for context.
 
 ## Components needed for basic functionality
 The basic schematic shown above assumes the use of through-hole components.  If you wish to use SMD components, please refer to the [FAQ](FAQ.md#what-if-i-want-to-use-sot-23-smd-components), and you can also check out the community-provided schematics, which include SMD-based designs.
@@ -32,7 +32,7 @@ For this basic design, aside from the obvious requirement of a [supported ESP-32
 
 It is also recommended you aquire a suitable 3-post screw terminal and some red, white, and black wire for connecting to the door opener.  These connections are very low current, so you can get away with fairly thin wire.
 
-**Note:**  You may **try** to use a 2n7000 MOSFETs for **both** RX and TX, however depending on the manufacturere of your 2n7000 and its production batch, it might not be 100% reliable for the TX circuit.  There are many examples working using the 2n7000 however, so it might work.  If you have reliability issues for sending commands, we can only recommend you use the AO3400A SMD MOSFET, soldered to a SOT23-to-DIP adapter board.  
+**Note:**  You may **try** to use a 2n7000 MOSFETs for **both** RX and TX, however depending on the manufacturere of your 2n7000 and its production batch, it might not be 100% reliable for the TX circuit because the ~3v switching signal from the ESP8266 may not be enough to trigger the gate of the 2n7000.  There are many examples working using the 2n7000 however, so it might work.  If you have reliability issues for sending commands, we can only recommend you use the AO3400A SMD MOSFET, soldered to a SOT23-to-DIP adapter board.  
 
 
 ## INSTALL REQUIREMENTS
