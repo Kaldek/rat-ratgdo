@@ -25,9 +25,14 @@ See images of a [working breadboard prototype](images/Breadboard_working.png) an
 ## Components needed for basic functionality
 The basic schematic shown above assumes the use of through-hole components.  If you wish to use SMD components, please refer to the [FAQ](FAQ.md#what-if-i-want-to-use-sot-23-smd-components), and you can also check out the community-provided schematics, which include SMD-based designs.
 
-For this basic design, aside from the obvious requirement of a [supported ESP-32 or ESP8266 board](Supported%20Boards.md) flashed with the [ESPHome version](https://github.com/ratgdo/esphome-ratgdo), you will need 3x 10 kohm (kilo-ohm) resistors, and two 2n7000 N-channel MOSFET (TO-92 package is easiest), or one 2n7000 and one AO3400A soldered to a SOT23 to DIP adapter board.  It is also recommended you aquire a suitable 3-post screw terminal and some red, white, and black wire for connecting to the door opener.  These connections are very low current, so you can get away with fairly thin wire.
+For this basic design, aside from the obvious requirement of a [supported ESP-32 or ESP8266 board](Supported%20Boards.md) flashed with the [ESPHome version](https://github.com/ratgdo/esphome-ratgdo), you will need:
+- 3x 10 kohm (kilo-ohm) resistors
+- 1x 2n7000 MOSFET for the RX pin
+- 1x AO3400A (soldered to a SOT23 to DIP adapter board) for the TX pin.
 
-**Note:** Our simple through-hole Bill Of Materials uses 2n7000 MOSFETs for both RX and TX, however depending on the manufacturere of your 2n7000 and its production batch, it might not be 100% reliable for the TX circuit.  There are many examples working using the 2n7000 however, so there is a very high chance it will work.  
+It is also recommended you aquire a suitable 3-post screw terminal and some red, white, and black wire for connecting to the door opener.  These connections are very low current, so you can get away with fairly thin wire.
+
+**Note:**  You may **try** to use a 2n7000 MOSFETs for **both** RX and TX, however depending on the manufacturere of your 2n7000 and its production batch, it might not be 100% reliable for the TX circuit.  There are many examples working using the 2n7000 however, so it might work.  If you have reliability issues for sending commands, we can only recommend you use the AO3400A SMD MOSFET, soldered to a SOT23-to-DIP adapter board.  
 
 
 ## INSTALL REQUIREMENTS
